@@ -1,0 +1,424 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+     
+}
+
+body{
+    /* max-width: 1440px;  */
+    font-family:'Cairo',sans-serif;
+    background: #E4EFFF;
+    direction: rtl;
+}
+
+.logo {
+    width: 446px;
+    height: 246px;
+    margin:16px auto 0px auto;
+    
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.conteaner{
+    width: 1380px;
+    height: 918px;
+    background: #F0F6FF;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+.conteaner-login{
+
+    width: 1380px;
+    height:  737px;
+    background: #F0F6FF;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+
+.card{
+    width: 478px;
+    height: 152px;
+    margin: 0px auto;
+     
+}
+
+.card h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing:0.3px;
+    color: #001F4D;
+    line-height: 200%;
+}
+
+.card p{
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-align: center;
+    line-height: 200%;
+    color: #003480;
+}
+
+.register{
+    width: 1330px;
+    height: 100px;
+    margin: 0px auto;
+    border-radius: 15px;
+    background: #E4EFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register .l,
+.register .r{
+    width: 650px;
+    height: 75px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 12px;
+}
+
+.register .active{
+    background: #B2D2FF;
+    box-shadow: 1px 1px 7px #9BC2FD78;
+}
+.register a{
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+    color: #0049B2;
+}
+
+ 
+
+.form{
+    width: 987px;
+    height: 435px;
+    margin: 25px auto 0 auto;
+}
+
+.form .form-1{
+    width: 987px;
+    height: 75px;
+    margin-top: 15px ;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-1 label{
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+    color: #001F4D;
+}
+
+.form-1 input{
+    width: 700px;
+    height: 75px;
+    border-radius: 15px;
+    border: 1px solid #EDEDED;
+    padding: 17px 20px 17px 20px;
+    gap: 10px;
+    background: #E4EFFF;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+}
+
+input::placeholder{
+    color: #8FB6EF;
+}
+
+.form-login{
+    width: 987px;
+    height: 200px;
+    margin: 117px auto 0px auto;
+     
+    
+}
+
+.form-login .form-l{
+    width: 987px;
+    height: 75px;
+    margin-top: 15px ;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+.form-l label{
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+    color: #001F4D;
+}
+
+.form-l input{
+    width: 700px;
+    height: 75px;
+    border-radius: 15px;
+    border: 1px solid #EDEDED;
+    padding: 17px 20px 17px 20px;
+    gap: 10px;
+    background: #E4EFFF;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+}
+
+.form-login .form-2{
+    margin-top: 60px;
+}
+
+.button{
+    width: 400px;
+    height: 75px;
+    margin: 20px auto 0px auto;
+    background: #247CFF;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.button a{
+    font-weight: 400px;
+    font-size: 36px;
+    letter-spacing: 0px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+     
+}
+
+.error{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+    color: #FF4C5E;
+}
+.error-input{
+border:2px solid #FF4C5E !important;
+}
+
+
+
+
+/* responsave  register*/
+@media(max-width:412px){
+    .logo{
+        width: 166px;
+        height: 91px ;
+        margin:44px auto 0px auto;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .conteaner{
+        width: 362px;
+        height: 988px;
+        background: #F0F6FF;
+        border-radius: 20px;
+        margin: 30px auto;
+
+    }
+    .card{
+        width: 270px;
+        height: 100px;
+        margin: 0px auto;
+    }
+
+    .card h2{
+        text-align: center;
+        font-weight: 800;
+        font-size: 30px;
+        letter-spacing:0.3px;
+        color: #001F4D;
+        line-height: 200%;
+    }
+    .card p{
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        text-align: center;
+        line-height: 200%;
+        color: #003480;
+    }
+
+    .register{
+        width: 331px;
+        height: 53px;
+        margin: 0px auto;
+        border-radius: 15px;
+        background: #E4EFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .register .l,
+    .register .r{
+        width: 159px;
+        height: 41px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 0 12px;
+    }
+
+    .register a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        line-height: 200%;
+        color: #0049B2;
+    }
+    .register .active{
+        background: #B2D2FF;
+        box-shadow: 1px 1px 7px #9BC2FD78;
+    }
+    .form{
+        width: 331px;
+        height: 500px;
+        margin: 25px auto 0 auto;
+    }
+    .form .form-1{
+        width: 331px;
+        height: 105px;
+        margin-top: 15px ;
+        display: block;
+        border-radius:0px;
+        align-items: center;
+        
+    }
+    .form-1 label{
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 0.3px;
+        line-height: 200%;
+        color: #001F4D;
+    }
+
+    .form-1 input{
+        width: 331px;
+        height: 55px;
+        border-radius: 15px;
+        border: 1px solid #EDEDED;
+        padding: 17px 20px 17px 20px;
+        gap: 10px;
+        background: #E4EFFF;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 0.3px;
+        line-height: 200%;
+    }
+    input::placeholder{
+        color: #8FB6EF;
+    }
+    .button{
+        width: 268px;
+        height: 58px;
+        margin: 20px auto 0px auto;
+        background: #247CFF;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+
+    .error{
+        text-align: center;
+        margin-top: 5px;
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 0.3px;
+        line-height: 200%;
+        color: #FF4C5E;
+        margin-top: 100px;
+    }
+
+    .error-input{
+        border:2px solid #FF4C5E !important;
+    }
+
+
+    /* responsave login */
+    .conteaner-login{
+
+        width: 362px;
+        height: 694px ;
+        background: #F0F6FF;
+        border-radius: 20px;
+        margin: 0px auto;
+    }
+
+    .form-login{
+        width: 331px;
+        height: 200px;
+        margin: 17px auto 0px auto;
+         
+    }
+
+    .form-login .form-l{
+        width: 331px;
+        height: 105px;
+        margin-top: 15px ;
+        border-radius: 0px;
+        display:block;
+        align-items: center;
+         
+        
+    }
+
+    .form-l label{
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 0.3px;
+        line-height: 200%;
+        color: #001F4D;
+    }
+    .form-login .form-2{
+        margin-top: 60px;
+    }
+
+    .form-l input{
+        width: 331px;
+        height: 55px;
+        border-radius: 15px;
+        border: 1px solid #EDEDED;
+        padding: 17px 20px 17px 20px;
+        gap: 10px;
+        background: #E4EFFF;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 0.3px;
+        line-height: 200%;
+    }
+
+     
+}

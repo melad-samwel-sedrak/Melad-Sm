@@ -1,0 +1,931 @@
+.pp-p{
+    width: 400px;
+    height: 188px;
+    margin: 30px 20px 0px 0px;
+    
+}
+
+.pp-p p{
+    font-size: 32px ;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+    color: #003480;
+}
+.pp-p p span{
+    font-size: 45px;
+    margin-left: 10px;
+     color: #003480;
+}
+.pp-p h3{
+    font-size: 40px ;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+    line-height: 150%;
+}
+
+.cearch-2{
+    width: 1360px;
+    height: 150px;
+    margin: 10px auto 0px auto;
+    background:#FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #EDEDED;
+    padding: 17px 20px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-box-2{
+    width: 800px;
+    height: 100px;
+    background-color:#247CFF40;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid #E4EFFF;
+    padding: 17px 20px;
+    gap: 10px;
+    font-size: 36px;
+    color: #247CFF;
+     
+}
+
+.search-box-2 i{
+    cursor: pointer;
+}
+ .search-box-2 input{
+    width: 100%;
+    height: 100%;
+    font-size: 36px;
+    border: none;
+    background:none ;
+    color: #247CFF;
+    margin-right: 10px;
+ }
+ 
+.search-box-2 input::placeholder{
+    color: #247CFF;
+}
+.search-box-2 input:focus{
+     outline: none;
+}
+ 
+
+.all-2{
+    width: 400px;
+    height: 100px;
+}
+
+/* العنصر الأساسي */
+.custom-select {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+/* الشكل الأساسي زي select */
+.selected {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    font-size: 36px;
+    padding: 17px 20px;
+    border: 2px solid #E4EFFF;
+    color: #247CFF;
+    background: #247CFF40;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* السهم */
+.selected::after {
+    content: "";
+    position: absolute;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%23247CFF' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center;
+}
+
+/* القائمة */
+.options {
+    position: absolute;
+    top: 110%;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: 2px solid #E4EFFF;
+    z-index: 10;
+     
+}
+
+/* العناصر */
+.options div {
+    text-align: center;
+    font-size: 36px;
+    padding: 17px 20px;
+    color: #247CFF;
+    border-radius: 10px;
+}
+
+/* hover */
+.options div:hover {
+    background: #E4EFFF;
+}
+
+
+.ka{
+    width: 1360px;
+    height: 150px;
+    margin: 10px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.ka-1{
+    width: 430px;
+    height: 150px;
+    border: 1px solid #21DF00;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #21DF001A;
+}
+
+.ka-2{
+    width: 430px;
+    height: 150px;
+    border: 1px solid #F3C243;
+    background-color: #F3C2431A;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ka-3{
+    width: 430px;
+    height: 150px;
+    border: 1px solid #FF4C5E;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF4C5E1A;
+}
+
+.kaka-1{
+    width: 135px;
+    height: 110px;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+.kaka-1 p{
+    font-size: 24px;
+    font-weight:600 ;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+    color: #003480;
+}
+.kaka-1 span{
+    font-size: 40px;
+    font-weight:800 ;
+    line-height: 100%;
+    color: #21DF00;
+}
+
+.ka-icon-1{
+    width: 100px;
+    height: 100px;
+    background-color:#21DF001A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.ka-icon-1 i{
+    font-size: 60px;
+    color:#21DF00;
+}
+
+
+.kaka-2{
+    width: 135px;
+    height: 110px;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+.kaka-2 p{
+    font-size: 24px;
+    font-weight:600 ;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+    color: #003480;
+}
+.kaka-2 span{
+    font-size: 40px;
+    font-weight:800 ;
+    line-height: 100%;
+    color: #F3C243;
+}
+
+.ka-icon-2{
+    width: 100px;
+    height: 100px;
+    background-color:#F3C2431A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+     
+    margin-left: 20px;
+}
+.ka-icon-2 i{
+    font-size: 60px;
+    color:#F3C243;
+}
+
+.kaka-3{
+    width: 135px;
+    height: 110px;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+.kaka-3 p{
+    font-size: 24px;
+    font-weight:600 ;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+    color: #003480;
+}
+.kaka-3 span{
+    font-size: 40px;
+    font-weight:800 ;
+    line-height: 100%;
+    color:#FF4C5E; 
+}
+
+.ka-icon-3{
+    width: 100px;
+    height: 100px;
+    background-color:#FF4C5E1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+    margin-left: 20px;
+}
+.ka-icon-3 i{
+    font-size: 60px;
+    color:#FF4C5E;
+}
+
+.class{
+    width: 1360px;
+    height: 1248px;
+    margin: 20px auto 0px auto;
+    display:flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+    
+     
+}
+.class-1,
+.class-2,
+.class-3,
+.class-4{
+    width: 655px;
+    height: 616px;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    border-radius: 15px;
+     
+    border: 2px solid #E4EFFF;
+    box-shadow: 0px 0px 5px #247CFF40;
+}
+.ph{
+    position: relative;
+}
+
+.ph .badg-right{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #E4EFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #21DF00BF;
+    color: #E4EFFF;
+    font-size: 20px;
+    font-weight:400 ;
+    line-height: 100%;
+}
+
+.ph .badg-right-2{
+     width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #E4EFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color:#F3C243BF;
+    color: #E4EFFF;
+    font-size: 20px;
+    font-weight:400 ;
+    line-height: 100%;
+}
+.ph .badg-right-3{
+     width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #E4EFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color:#FF4C5EBF;
+    color: #E4EFFF;
+    font-size: 20px;
+    font-weight:400 ;
+    line-height: 100%;
+}
+.ph .badg-left{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 1px solid #E4EFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color:#001F4DBF;
+    color: #E4EFFF;
+    font-size: 20px;
+    font-weight:400 ;
+    line-height: 100%;
+}
+.class-1 img,
+.class-2 img,
+.class-3 img,
+.class-4 img{
+    width: 655px;
+    height: 301px;
+    margin: 0px auto;
+    border-top-right-radius:15px ;
+     border-top-left-radius:15px ;
+}
+.class-1 h2,
+.class-2 h2,
+.class-3 h2,
+.class-4 h2
+{
+    font-size:40px ;
+    font-weight:800 ;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+    color:#001F4D ;
+}
+.class-1 p,
+.class-2 p,
+.class-3 p,
+.class-4 p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 200%;
+    color: #003480;
+    margin-right: 20px;
+    
+}
+.class-1 p span,
+.class-2 p span,
+.class-3 p span,
+.class-4 p span{
+    margin-left: 10px;
+}
+.class-1 hr,
+.class-2 hr,
+.class-3 hr,
+.class-4 hr
+{
+    width: 500px;
+    border: 1.5px solid #D9D9D9;
+    margin: 10px auto 0px auto;
+}
+
+.price{
+    width:655px ;
+    height: 92px;
+   
+    display: flex;
+    align-items:center ;
+    justify-content:space-between;
+}
+.price-1{
+    width: 205px;
+    height: 92px;
+   
+     
+
+}
+.price-1 p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-top: 5px;
+    color: #003480;
+}
+.price-1 h4{
+    font-size: 38px;
+    font-weight: 800;
+    color: #001F4D;
+    margin-right: 20px;
+}
+.bott{
+    width: 150px;
+    height: 50px;
+    padding: 10px 18px;
+    margin: 20px 0px 0px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+    border: none;
+    background: #247CFF;
+    color: #FFFFFF;
+}
+
+
+
+@media(max-width :412px){
+
+.pp-p{
+    width: 253px;
+    height: 109px;
+    margin: 44px 16px 0px 0px;
+     
+     
+}
+
+.pp-p p{
+    font-size: 20px;
+}
+.pp-p p span{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.pp-p h3{
+    font-size: 30px ;
+    font-weight: 800;
+     
+}
+
+ .cearch-2{
+        width: 100%;
+        max-width: 380px;
+        height: 60px;
+        margin-top:10px;
+        padding: 7px 9px;
+        margin: 10px auto 0px auto;
+        
+}
+
+.search-box-2{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    padding: 0px 10px;
+     margin-right: 0px;
+}
+
+.search-box-2 i{
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0px;
+}
+ .search-box-2 input{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+     
+ }
+ 
+.search-box-2 input::placeholder{
+    color: #247CFF;
+}
+.search-box-2 input:focus{
+     outline: none;
+}
+.all-2{
+    width:136px ;
+    height: 40px; 
+}
+.all-2 select{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 6px 8px;
+    border: 2ps solid #E4EFFF;
+    color: #247CFF;
+    background: #247CFF40;
+    direction:ltr;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%23247CFF' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 7px center;
+    background-size: 15px;
+}
+
+.all-2 select option{
+    background-color: #FFFFFF;
+     text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    
+}
+
+.ka{
+    width:100%;
+    max-width: 380px;
+    height: 52px;
+    margin: 20px auto 0px auto;
+    
+    
+}
+.ka-1{
+    width: 110px;
+    height: 52px;
+    
+}
+
+.ka-2{
+    width: 110px;
+    height: 52px;
+     
+}
+.ka-3{
+    width: 110px;
+    height: 52px;
+    
+}
+
+.kaka-1{
+    width: 58px;
+    height: 51px;
+    margin-right: 7px;
+    text-align: center;
+}
+
+.kaka-1 p{
+    font-size: 10px;
+    font-weight:600 ;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+    color: #003480;
+}
+.kaka-1 span{
+    font-size: 20px;
+    font-weight:800 ;
+    line-height: 100%;
+    color: #21DF00;
+}
+
+.ka-icon-1{
+    width: 35px;
+    height: 35px;
+    background-color:#21DF001A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left:5px;
+}
+.ka-icon-1 i{
+    font-size: 25px;
+    color:#21DF00;
+}
+
+
+.kaka-2{
+     width: 58px;
+    height: 51px;
+    margin-right: 7px;
+    text-align: center;
+    
+}
+.kaka-2 p{
+    font-size: 10px;
+    font-weight:600 ;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+    color: #003480;
+}
+.kaka-2 span{
+   font-size: 20px;
+    font-weight:800 ;
+    line-height: 100%;
+    color: #F3C243;
+}
+
+.ka-icon-2{
+   width: 35px;
+    height: 35px;
+    background-color:#21DF001A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left:5px;
+}
+.ka-icon-2 i{
+    font-size: 25px;
+    color:#F3C243;
+}
+
+.kaka-3{
+     width: 58px;
+    height: 51px;
+    margin-right: 7px;
+    text-align: center;
+    
+}
+.kaka-3 p{
+    font-size: 10px;
+    font-weight:600 ;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+    color: #003480;
+}
+.kaka-3 span{
+    font-size: 20px;
+    font-weight:800 ;
+    line-height: 100%;
+    color: #FF4C5E;
+}
+
+.ka-icon-3{
+    width: 35px;
+    height: 35px;
+    background-color:#21DF001A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left:5px;
+    
+}
+.ka-icon-3 i{
+    font-size: 25px;
+    color:#FF4C5E;
+}
+
+.class{
+    width: 100%;
+    max-width: 380px;
+    height: 1220px;
+    margin: 10px auto 0px auto;
+    display:block;
+
+}
+
+ 
+.class-2,
+.class-3,
+.class-4{
+    width: 100%;
+    max-width: 380px;
+    height: 400px;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 2px solid #E4EFFF;
+    box-shadow: 0px 0px 5px #247CFF40;
+   
+}
+.class-1{
+    display: none;
+}
+
+
+.class-2 img,
+.class-3 img,
+.class-4 img{
+    width: 100%;
+    max-width: 380px;
+    height: 170px;
+    padding: none;
+}
+ 
+.class-2 h2,
+.class-3 h2,
+.class-4 h2
+{
+    font-size:30px ;
+}
+
+.class-1 p,
+.class-2 p,
+.class-3 p,
+.class-4 p{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #003480;
+    margin-right: 10px;
+    
+}
+ 
+.class-2 p span,
+.class-3 p span,
+.class-4 p span{
+    margin-left: 5px;
+}
+ 
+.class-2 hr,
+.class-3 hr,
+.class-4 hr
+{
+    width: 300px;
+}
+
+.ph .badg-right{
+    width: 100px;
+    height: 28px;
+    position: absolute;
+    font-size: 15px;
+    
+}
+
+.ph .badg-right-2{
+     width: 100px;
+    height: 28px;
+    position: absolute;
+     
+    font-size: 15px;
+     
+}
+.ph .badg-right-3{
+     width: 100px;
+    height: 28px;
+    font-size: 15px;
+     
+}
+.ph .badg-left{
+    width: 100px;
+    height: 28px;
+    font-size: 15px;
+     
+}
+.price{
+    width:100% ;
+    max-width: 380px;
+    height: 59px;
+   margin-top: 10px;
+    
+}
+.price a{
+    text-decoration: none;
+}
+.price-1{
+    width: 143px;
+    height: 59px;
+     
+}
+.price-1 p{
+    font-size: 15px;
+     
+}
+.price-1 h4{
+    font-size: 30px;
+    font-weight: 800;
+    color: #001F4D;
+    margin-right: 10px;
+    line-height: 150%;
+}
+.bott{
+    width: 109px;
+    height: 38px;
+    padding: 5px 9px;
+    margin: 40px 0px 0px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 150%;
+    border: none;
+    background: #247CFF;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+ 
+
+.all-2{
+    width: 125px;
+    height: 40px;
+   
+}
+
+/* العنصر الأساسي */
+.custom-select {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+/* الشكل الأساسي زي select */
+.selected {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px 13px;
+    border: 2px solid #E4EFFF;
+    color: #247CFF;
+    background: #247CFF40;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    
+}
+
+/* السهم */
+.selected::after {
+    content: "";
+    position: absolute;
+    right: 7px;
+     top: 11px;
+    width: 10px;
+    height: 15px;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%23247CFF' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    
+     
+}
+
+/* القائمة */
+.options {
+    position: absolute;
+    top: 110%;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: 2px solid #E4EFFF;
+    z-index: 10;
+     
+}
+
+/* العناصر */
+.options div {
+    text-align: center;
+    font-size: 15px;
+    padding: 5px 13px;
+    color: #247CFF;
+    border-radius: 10px;
+}
+
+/* hover */
+.options div:hover {
+    background: #E4EFFF;
+}
+
+
+}
