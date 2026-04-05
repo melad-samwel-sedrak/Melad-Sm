@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Melad-Sm/static/css/main.b4f3b3ed.css",
-    "main.js": "/Melad-Sm/static/js/main.5678770a.js",
+    "main.js": "/Melad-Sm/static/js/main.6175baf9.js",
     "static/media/logo.svg": "/Melad-Sm/static/media/logo.c1dedd2a23e88f5a086edfcf99a5693b.svg",
     "static/media/photo.jpg": "/Melad-Sm/static/media/photo.01fdd32b6ab38e9838de.jpg",
     "static/media/photo3.jpg": "/Melad-Sm/static/media/photo3.f82760cad52702dafcda.jpg",
     "static/media/photo2.jpg": "/Melad-Sm/static/media/photo2.9e805129f3107185ba67.jpg",
     "index.html": "/Melad-Sm/index.html",
     "main.b4f3b3ed.css.map": "/Melad-Sm/static/css/main.b4f3b3ed.css.map",
-    "main.5678770a.js.map": "/Melad-Sm/static/js/main.5678770a.js.map"
+    "main.6175baf9.js.map": "/Melad-Sm/static/js/main.6175baf9.js.map"
   },
   "entrypoints": [
     "static/css/main.b4f3b3ed.css",
-    "static/js/main.5678770a.js"
+    "static/js/main.6175baf9.js"
   ]
 }
