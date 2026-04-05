@@ -310,13 +310,17 @@
 .detals-button{
     width:109px;
     height: 34px;
+      
 }
 
 .detals-button button{
     background: var(--main-color);
-    font-size: var(--font-xs);
+    font-size: 14px;
+    padding: 7px 10px;
 }
-
+.detals-button button span{
+    margin-left: 5px;
+}
 .detals-2{
      width: 100%;
      max-width: 380px;
