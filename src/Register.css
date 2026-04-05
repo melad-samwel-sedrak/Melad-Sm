@@ -1,5 +1,20 @@
  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap');
 
+:root{
+    --bg-main:#E4EFFF;
+    --bg-card:#F0F6FF;
+    --primary:#247CFF;
+    --text-dark:#001F4D;
+    --text-blue:#003480;
+    --placeholder:#8FB6EF;
+    --error:#FF4C5E;
+    --border:#EDEDED;
+
+    --radius-sm:10px;
+    --radius-md:15px;
+    --radius-lg:20px;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -10,7 +25,7 @@
 body{
     
     font-family:'Cairo',sans-serif;
-    background: #E4EFFF;
+    background: var(--bg-main);
     direction: rtl;
     overflow-x: hidden;
 }
@@ -32,17 +47,18 @@ body{
     width:100%;
     max-width: 1380px ;
     height: 918px;
-    background: #F0F6FF;
-    border-radius: 20px;
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
     margin: 0px auto;
 }
+
 .conteaner-login{
 
     width:100%;
     max-width: 1380px;
     height:  737px;
-    background: #F0F6FF;
-    border-radius: 20px;
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
     margin: 0px auto;
 }
 
@@ -59,7 +75,7 @@ body{
     font-weight: 800;
     font-size: 40px;
     letter-spacing:0.3px;
-    color: #001F4D;
+    color: var(--text-dark);
     line-height: 200%;
 }
 
@@ -69,7 +85,7 @@ body{
     letter-spacing: 0.3px;
     text-align: center;
     line-height: 200%;
-    color: #003480;
+    color: var(--text-blue);
 }
 
 .register{
@@ -78,7 +94,7 @@ body{
     height: 100px;
     margin: 0px auto;
     border-radius: 15px;
-    background: #E4EFFF;
+    background: var(--bg-main);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,6 +114,7 @@ body{
     background: #B2D2FF;
     box-shadow: 1px 1px 7px #9BC2FD78;
 }
+
 .register a{
     text-decoration: none;
     font-size: 36px;
@@ -106,8 +123,6 @@ body{
     line-height: 200%;
     color: #0049B2;
 }
-
- 
 
 .form{
     max-width:987px;
@@ -132,7 +147,7 @@ body{
     font-size: 36px;
     letter-spacing: 0.3px;
     line-height: 200%;
-    color: #001F4D;
+    color: var(--text-dark);
 }
 
 .form-1 input{
@@ -140,10 +155,10 @@ body{
     width:100%;
     height: 75px;
     border-radius: 15px;
-    border: 1px solid #EDEDED;
+    border: 1px solid var(--border);
     padding: 17px 20px 17px 20px;
     gap: 10px;
-    background: #E4EFFF;
+    background: var(--bg-main);
     font-weight: 400;
     font-size: 36px;
     letter-spacing: 0.3px;
@@ -151,7 +166,7 @@ body{
 }
 
 input::placeholder{
-    color: #8FB6EF;
+    color: var(--placeholder);
 }
 
 .form-login{
@@ -160,7 +175,6 @@ input::placeholder{
     height: 200px;
     margin: 117px auto 0px auto;
      
-    
 }
 
 .form-login .form-l{
@@ -180,7 +194,7 @@ input::placeholder{
     font-size: 36px;
     letter-spacing: 0.3px;
     line-height: 200%;
-    color: #001F4D;
+    color: var(--text-dark);
 }
 
 .form-l input{
@@ -188,10 +202,10 @@ input::placeholder{
     width:100%;
     height: 75px;
     border-radius: 15px;
-    border: 1px solid #EDEDED;
+    border: 1px solid var(--border);
     padding: 17px 20px 17px 20px;
     gap: 10px;
-    background: #E4EFFF;
+    background: var(--bg-main);
     font-weight: 400;
     font-size: 36px;
     letter-spacing: 0.3px;
@@ -207,7 +221,7 @@ input::placeholder{
     width: 100%;
     height: 75px;
     margin: 20px auto 0px auto;
-    background: #247CFF;
+    background: var(--primary);
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -232,16 +246,14 @@ input::placeholder{
     font-size: 20px;
     letter-spacing: 0.3px;
     line-height: 200%;
-    color: #FF4C5E;
+    color: var(--error);
 }
+
 .error-input{
-border:2px solid #FF4C5E !important;
+border:2px solid var(--error) !important;
 }
 
-
-
-
-/* responsave  register*/
+/* responsave register*/
 @media(max-width:412px){
     .logo{
         max-width: 166px;
@@ -257,7 +269,7 @@ border:2px solid #FF4C5E !important;
         max-width:362px;
         width:100%;
         height: 988px;
-        background: #F0F6FF;
+        background: var(--bg-card);
         border-radius: 20px;
         margin: 30px auto;
 
@@ -274,7 +286,7 @@ border:2px solid #FF4C5E !important;
         font-weight: 800;
         font-size: 30px;
         letter-spacing:0.3px;
-        color: #001F4D;
+        color: var(--text-dark);
         line-height: 200%;
     }
     .card p{
@@ -283,7 +295,7 @@ border:2px solid #FF4C5E !important;
         letter-spacing: 0.3px;
         text-align: center;
         line-height: 200%;
-        color: #003480;
+        color: var(--text-blue);
     }
 
     .register{
@@ -292,7 +304,7 @@ border:2px solid #FF4C5E !important;
         height: 53px;
         margin: 0px auto;
         border-radius: 15px;
-        background: #E4EFFF;
+        background: var(--bg-main);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -340,7 +352,7 @@ border:2px solid #FF4C5E !important;
         font-size: 20px;
         letter-spacing: 0.3px;
         line-height: 200%;
-        color: #001F4D;
+        color: var(--text-dark);
     }
 
     .form-1 input{
@@ -348,31 +360,28 @@ border:2px solid #FF4C5E !important;
         width: 100%;
         height: 55px;
         border-radius: 15px;
-        border: 1px solid #EDEDED;
+        border: 1px solid var(--border);
         padding: 17px 20px 17px 20px;
         gap: 10px;
-        background: #E4EFFF;
+        background: var(--bg-main);
         font-weight: 400;
         font-size: 20px;
         letter-spacing: 0.3px;
         line-height: 200%;
     }
-    input::placeholder{
-        color: #8FB6EF;
-    }
+
     .button{
         max-width:268px ;
         width: 100% ;
         height: 58px;
         margin: 20px auto 0px auto;
-        background: #247CFF;
+        background: var(--primary);
         border-radius: 16px;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 100px;
     }
-
 
     .error{
         text-align: center;
@@ -381,21 +390,19 @@ border:2px solid #FF4C5E !important;
         font-size: 13px;
         letter-spacing: 0.3px;
         line-height: 200%;
-        color: #FF4C5E;
+        color: var(--error);
         margin-top: 100px;
     }
 
     .error-input{
-        border:2px solid #FF4C5E !important;
+        border:2px solid var(--error) !important;
     }
 
-
-    /* responsave login */
     .conteaner-login{
         max-width:362px ;
         width:100%;
         height: 694px ;
-        background: #F0F6FF;
+        background: var(--bg-card);
         border-radius: 20px;
         margin: 0px auto;
     }
@@ -405,7 +412,6 @@ border:2px solid #FF4C5E !important;
         width: 100%;
         height: 200px;
         margin: 17px auto 0px auto;
-         
     }
 
     .form-login .form-l{
@@ -416,8 +422,6 @@ border:2px solid #FF4C5E !important;
         border-radius: 0px;
         display:block;
         align-items: center;
-         
-        
     }
 
     .form-l label{
@@ -425,10 +429,7 @@ border:2px solid #FF4C5E !important;
         font-size: 20px;
         letter-spacing: 0.3px;
         line-height: 200%;
-        color: #001F4D;
-    }
-    .form-login .form-2{
-        margin-top: 60px;
+        color: var(--text-dark);
     }
 
     .form-l input{
@@ -436,15 +437,13 @@ border:2px solid #FF4C5E !important;
         width: 100%;
         height: 55px;
         border-radius: 15px;
-        border: 1px solid #EDEDED;
+        border: 1px solid var(--border);
         padding: 17px 20px 17px 20px;
         gap: 10px;
-        background: #E4EFFF;
+        background: var(--bg-main);
         font-weight: 400;
         font-size: 20px;
         letter-spacing: 0.3px;
         line-height: 200%;
     }
-
-     
 }
