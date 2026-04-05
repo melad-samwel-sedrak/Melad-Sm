@@ -1,12 +1,12 @@
 
 import logo from "./logo.svg";
-import { Link , useLocation } from 'react-router-dom';
+import { Link , useLocation ,useNavigate} from 'react-router-dom';
 import React, { useState } from 'react'
 
 
 const Login = () => {
 
-  
+  const navigate = useNavigate();
 
   const location = useLocation();
 
@@ -14,16 +14,16 @@ const Login = () => {
   const [password ,setPassword] = useState("");
   const [error ,setError] =useState(false);
 
-  const handleSubmit=()=>{
-        const emailRegex =/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if(!emailRegex.test(email)||password.length<8){
-            setError(true)
-        }
-        else{
-                setError(false)
-        
-        }
+ const handleSubmit=()=>{
+    const emailRegex =/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if(!emailRegex.test(email)||password.length<8){
+        setError(true)
     }
+    else{
+        setError(false)
+        navigate("/melad"); // التحويل هنا
+    }
+}
 
 
   return (
