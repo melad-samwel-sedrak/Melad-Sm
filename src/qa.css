@@ -37,7 +37,8 @@
 }
 
 .p{
-    width: 518px;
+    max-width:518px;
+    width:100%;
     height: 72px;
     margin-right: 20px;
 }
@@ -49,7 +50,8 @@
     line-height: 200%;
 }
 .nav{
-    width: 800px;
+    max-width:800px ;
+    width:100%;
     height: 60px;
     margin: 10px 20px 0px 0px;
     display: flex;
@@ -57,7 +59,8 @@
     justify-content: space-around;
 }
 .nav a{
-    width: 250px;
+    max-width:250px;
+    width:100%;
     height: 60px;
     display: flex;
     align-items: center;
@@ -84,7 +87,8 @@
 }
 
 .contener{
-    width: 1400px;
+    max-width:1400px ;
+    width: 100%;
     height: 151px;
     margin: 15px  auto 0px  auto;
     display: flex;
@@ -92,7 +96,8 @@
     
 }
 .w{
-    width: 325px;
+    max-width: 325px ;
+    width: 100%;
     height: 150px;
     background: var(--c-white);
     border-radius: 15px;
@@ -191,7 +196,8 @@
     color:var(--c-green);
 }
 .h{
-    width: 1400px;
+    max-width:1400px ;
+    width: 100%;
     height:125px ;
     margin: 20px auto 0px auto;
     background: var(--c-white);
@@ -201,7 +207,8 @@
     align-items: center;
 }
 .h div{
-    width: 261px;
+    max-width: 261px ;
+    width:100%;
     height: 120px;
     margin-right: 20px;
      
@@ -224,7 +231,8 @@
 }
 
 .card-top{
-    width: 1400px;
+    max-width:1400px ;
+    width: 100%;
     height: 200px;
     margin: 0px auto 0px auto;
     background: var(--c-white);
@@ -235,7 +243,8 @@
      
 }
 .card-center{
-    width: 1400px;
+     max-width:1400px ;
+    width: 100%;
     height: 200px;
     margin: 0px auto 0px auto;
     background: var(--c-white);
@@ -246,7 +255,8 @@
 }
 
 .card-boutom{
-    width: 1400px;
+     max-width:1400px ;
+    width: 100%;
     height: 200px;
     margin: 0px auto 0px auto;
     background: var(--c-white);
@@ -258,19 +268,22 @@
 }
 
 .m{
-    width:535px ;
+    max-width:535px ;
+    width:100%;
     height:185px;
     margin-right: 20px;
 }
 .o{
-    width: 200px;
+    max-width:200px ;
+    width:100%;
     height: 171px;
     margin-left: 20px;
      
      
 }
 .o .mm{
-     width: 200px;
+     max-width:200px ;
+    width:100%;
     height: 50px;
     border: 1px solid var(--c-yellow);
     border-radius: 24px;
@@ -295,7 +308,8 @@
     letter-spacing: 0px;
 }
 .bo span{
-    width: 200px;
+   max-width:200px ;
+    width:100%;
     height: 50px;
     border: 1px solid var(--c-main);
     border-radius: 24px;
@@ -327,7 +341,8 @@
     margin-right: 5px;
 }
 .o span{
-     width: 200px;
+    max-width:200px ;
+    width:100%;
     height: 50px;
     border: 1px solid var(--c-green);
     border-radius: 24px;
@@ -366,7 +381,8 @@
     }
 
     .p{
-        width: 292px;
+        max-width:292px;
+        width:100%;
         height:  40px;
     }
     .p p{
@@ -374,12 +390,14 @@
     }
 
     .nav{
-        width:  374px;
+        max-width:374px ;
+        width:100%;
         height: 40px;
         margin: 9px 20px 0px 0px;
     }
     .nav a{
-        width: 122px;
+        max-width:122px ;
+        width: 100%;
         height: 38px;
         padding: 8px 14px 8px 14px;
         font-size: 9px;
@@ -390,7 +408,8 @@
     }
 
 .contener{
-    width:  380px;
+    max-width: 380px ;
+    width:100%;
     height: 380px;
     margin: 15px  auto 0px  auto;
     flex-wrap: wrap;
@@ -442,12 +461,14 @@
 }
 
 .h{
-    width: 380px;
+    max-width: 380px;
+    width:100%;
     height:90px ;
 }
 
 .h div{
-    width: 170px;
+    max-width: 170px;
+    width:100%;
     height: 120px;
     margin-right: 20px;
 }
@@ -462,16 +483,19 @@
 .card-top,
 .card-center,
 .card-boutom{
-    width: 380px;
+    max-width:380px ;
+    width: 100%;
     height: 120px;
 }
 
 .m{
-    width:225px ;
+    max-width:225px ;
+    width:100%;
     height:100px;
 }
 .o{
-    width: 100px;
+    max-width: 100px;
+    width: 100%;
     height: 100px;
 }
 
@@ -497,7 +521,8 @@
 }
 
 .o span{
-    width: 100px;
+    max-width: 100px;
+    width: 100%;
     height: 20px;
     font-size: 15px;
     margin-top: 20px;
@@ -510,7 +535,8 @@
 }
 
 .o .mm{
-    width: 100px;
+    max-width: 100px;
+    width: 100%;
     height: 25px;
     margin-top: 20px;
     font-size: 15px;
