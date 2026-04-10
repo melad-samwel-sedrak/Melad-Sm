@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/Melad-Sm/static/css/main.0af0c686.css",
-    "main.js": "/Melad-Sm/static/js/main.6175baf9.js",
+    "main.css": "/Melad-Sm/static/css/main.cab2cbf5.css",
+    "main.js": "/Melad-Sm/static/js/main.4c7cb6c8.js",
+    "static/media/profile.jpg": "/Melad-Sm/static/media/profile.626994731f735237a22b.jpg",
     "static/media/logo.svg": "/Melad-Sm/static/media/logo.c1dedd2a23e88f5a086edfcf99a5693b.svg",
     "static/media/photo.jpg": "/Melad-Sm/static/media/photo.01fdd32b6ab38e9838de.jpg",
     "static/media/photo3.jpg": "/Melad-Sm/static/media/photo3.f82760cad52702dafcda.jpg",
     "static/media/photo2.jpg": "/Melad-Sm/static/media/photo2.9e805129f3107185ba67.jpg",
+    "static/media/visa.png": "/Melad-Sm/static/media/visa.c7ff48c381db70da9306.png",
+    "static/media/instaPay.png": "/Melad-Sm/static/media/instaPay.82cf9e6d0e4b5ff5b108.png",
+    "static/media/photo4.jpg": "/Melad-Sm/static/media/photo4.865c8cfda5eef51053f3.jpg",
+    "static/media/photo5.jpg": "/Melad-Sm/static/media/photo5.1235650e4b3cf28f69d7.jpg",
+    "static/media/baabal.png": "/Melad-Sm/static/media/baabal.5e4a345fddac9715360a.png",
+    "static/media/vodafone.png": "/Melad-Sm/static/media/vodafone.ab34f7030ba89f622734.png",
     "index.html": "/Melad-Sm/index.html",
-    "main.0af0c686.css.map": "/Melad-Sm/static/css/main.0af0c686.css.map",
-    "main.6175baf9.js.map": "/Melad-Sm/static/js/main.6175baf9.js.map"
+    "main.cab2cbf5.css.map": "/Melad-Sm/static/css/main.cab2cbf5.css.map",
+    "main.4c7cb6c8.js.map": "/Melad-Sm/static/js/main.4c7cb6c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0af0c686.css",
-    "static/js/main.6175baf9.js"
+    "static/css/main.cab2cbf5.css",
+    "static/js/main.4c7cb6c8.js"
   ]
 }
