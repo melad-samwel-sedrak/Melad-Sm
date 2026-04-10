@@ -10,42 +10,42 @@ const BookNow = ({ changeStep }) => {
 
         {/* الداف الاول */}
 
-        <div className='BookNow-input'>
+        <div className='BookNow-input-BookNow'>
           <label htmlFor='firstname'>الاسم الأول </label>
           <input id='firstname' type='text' placeholder='ادخل االاسم الاول'/>
 
         </div>
 
         {/* الداف الثانى  */}
-          <div className='BookNow-input'>
+          <div className='BookNow-input-BookNow'>
           <label htmlFor='lastname'>اسم العائلة</label>
           <input id='lastname' type='text' placeholder='ادخل اسم العائلة'/>
 
         </div>
 
         {/* الداف الثالث */}
-          <div className='BookNow-input'>
+          <div className='BookNow-input-BookNow'>
           <label htmlFor='date'>تاريخ المناسبة </label>
           <input id='date' type='date' placeholder='اختر التاريخ'/>
 
         </div>
         {/* الداف الرابع */}
 
-        <div className='BookNow-input'>
+        <div className='BookNow-input-BookNow'>
           <label htmlFor='name'>رقم الهاتف </label>
           <input id='name' type='text' placeholder='ادخل رقم الهاتف '/>
 
         </div>
 
         {/* الداف الخامس  */}
-        <div className='BookNow-input'>
+        <div className='BookNow-input-BookNow'>
           <label htmlFor='nambur'>عدد الحاضرين</label>
           <input id='nambur' type='text'  placeholder='عدد الحاضرين'/>
 
         </div>
 
         {/* الداف السادس */}
-        <div className='BookNow-input'>
+        <div className='BookNow-input-BookNow'>
           <label htmlFor='gendar'>نوع المناسبة </label>
            <select id='gendar'>
           <option value="">اختر نوع المناسبة </option>
@@ -63,7 +63,7 @@ const BookNow = ({ changeStep }) => {
          
          
         <button 
-            className='BookNow-button'
+            className='BookNow-button-BookNow'
             onClick={() => changeStep(17)}
           >
             احجز الان

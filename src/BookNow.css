@@ -32,7 +32,7 @@
     gap: 40px;
 }
 
-.BookNow-input{
+.BookNow-input-BookNow{
     width: 100%;
     max-width:426px ;
     height:113px;
@@ -43,14 +43,14 @@
      
 }
 
-.BookNow-input label{
+.BookNow-input-BookNow label{
     font-size: 24px;
     font-weight: 800;
     color: #003480;
     letter-spacing: 0.3px;
     line-height: 200%;
 }
-.BookNow-input input{
+.BookNow-input-BookNow input{
     width: 100%;
     height: 62px; 
     padding: 8px 10px;
@@ -62,7 +62,7 @@
     border: none;
 }
 
-.BookNow-input select{
+.BookNow-input-BookNow select{
      width: 100%;
     height: 62px; 
     padding: 8px 10px 8px 10px;
@@ -74,13 +74,13 @@
     border: none;
     
 }
-.BookNow-input select option{
+.BookNow-input-BookNow select option{
     background-color:#FFFFFF;
     color:#000000;
     
 
 }
-.BookNow-button{
+.BookNow-button-BookNow{
     width: 100%;
     max-width: 440px;
     height: 50px;
