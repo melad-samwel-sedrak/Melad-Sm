@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Melad-Sm/static/css/main.cab2cbf5.css",
-    "main.js": "/Melad-Sm/static/js/main.4c7cb6c8.js",
+    "main.css": "/Melad-Sm/static/css/main.5fe40ae6.css",
+    "main.js": "/Melad-Sm/static/js/main.d8b4a0ae.js",
     "static/media/profile.jpg": "/Melad-Sm/static/media/profile.626994731f735237a22b.jpg",
     "static/media/logo.svg": "/Melad-Sm/static/media/logo.c1dedd2a23e88f5a086edfcf99a5693b.svg",
     "static/media/photo.jpg": "/Melad-Sm/static/media/photo.01fdd32b6ab38e9838de.jpg",
@@ -14,11 +14,11 @@
     "static/media/baabal.png": "/Melad-Sm/static/media/baabal.5e4a345fddac9715360a.png",
     "static/media/vodafone.png": "/Melad-Sm/static/media/vodafone.ab34f7030ba89f622734.png",
     "index.html": "/Melad-Sm/index.html",
-    "main.cab2cbf5.css.map": "/Melad-Sm/static/css/main.cab2cbf5.css.map",
-    "main.4c7cb6c8.js.map": "/Melad-Sm/static/js/main.4c7cb6c8.js.map"
+    "main.5fe40ae6.css.map": "/Melad-Sm/static/css/main.5fe40ae6.css.map",
+    "main.d8b4a0ae.js.map": "/Melad-Sm/static/js/main.d8b4a0ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.cab2cbf5.css",
-    "static/js/main.4c7cb6c8.js"
+    "static/css/main.5fe40ae6.css",
+    "static/js/main.d8b4a0ae.js"
   ]
 }
