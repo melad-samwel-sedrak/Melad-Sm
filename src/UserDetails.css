@@ -1,0 +1,123 @@
+
+:root {
+  --main-color: #003480;
+  --dark-color: #001F4D;
+  --white: #FFFFFF;
+  --btn-color: #247CFF;
+
+  --title-size: 36px;
+  --sub-title: 24px;
+}
+.UserDetails-p{
+    font-size: var(--title-size);
+    line-height: 200%;
+    letter-spacing: 0.3px;
+    color: var(--main-color);
+    margin-top: 25px;
+    text-align: center;
+}
+
+.contener-UserDetails{
+    max-width: 1320px;
+    width: 100%;
+    height: 780px;
+    margin: 20px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.UserDetails-1{
+    max-width: 558px;
+    width: 100%;
+    height: 80%;
+}
+
+.UserDetails-1-h2{
+    font-size: var(--title-size);
+    font-weight: 800;
+    line-height: 200%;
+    letter-spacing: 0.3px;
+    color: var(--main-color);
+}
+
+.userDeatils-1p{
+    font-size: var(--sub-title);
+    font-weight: 800;
+    line-height: 200%;
+    letter-spacing: 0.3px;
+    color: var(--dark-color);
+    margin-top: 20px;
+}
+
+.userDeatils-1p span{
+    font-size: var(--sub-title);
+    font-weight: 600;
+    line-height: 200%;
+    letter-spacing: 0.3px;
+    color: var(--main-color);
+}
+
+.userDeatils-h3{
+    font-size: var(--sub-title);
+    font-weight: 800;
+    line-height: 200%;
+    letter-spacing: 0.3px;
+    color: var(--dark-color);
+    margin-top: 20px;
+}
+
+.UserDetails-detals{
+    max-width: 558px;
+    width:100%;
+    height: 210px;
+}
+
+.UserDetails-detals p{
+    font-size: var(--sub-title);
+    font-weight: 600;
+    line-height: 200%;
+    letter-spacing: 0.3px;
+    color: var(--main-color);
+}
+
+.UserDetails-2{
+    max-width: 660px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.UserDetails-2 .swiper{
+    width: 100%;
+    height: 100%;
+}
+
+.UserDetails-2 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.UserDetails-button{
+    max-width:440px ;
+    width: 100%;
+    height:50px ;
+    position: absolute;
+    bottom: -280px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--btn-color);
+    border-radius: 15px;
+    font-size: var(--sub-title);
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: var(--white);
+    border: none;
+}
+
+
+/* responsive */

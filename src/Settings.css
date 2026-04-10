@@ -1,0 +1,65 @@
+ 
+:root {
+  --main-color: #003480;
+  --accent-color: #0D99FF;
+  --white: #FFFFFF;
+  --shadow: #00000040;
+
+  --title-size: 45px;
+  --text-size: 30px;
+}
+.Settings-p{
+    font-size: var(--title-size);
+    font-weight:700 ;
+    color: var(--main-color);
+    letter-spacing: 0.3px;
+    line-height: 200%;
+    margin-top: 37px;
+    text-align: center;
+}
+
+.Settings-contener{
+    max-width:744px;
+    width: 100%;
+    height:600px;
+    margin: 20px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    box-sizing: border-box;
+}
+
+.Settings-contener .item {
+  width: 100%;
+  height: 104px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--white);
+  border-radius: 30px;
+  text-decoration: none;  
+  box-shadow: 0px 8px 8px var(--shadow);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--accent-color);
+  margin-right: 20px;
+  font-size: var(--text-size);
+}
+
+.text {
+  font-size: var(--text-size);
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  line-height: 200%;
+  color: var(--main-color);
+}
+
+.arrow {
+  font-size: var(--text-size);
+  color: var(--accent-color);
+  margin-left: 20px;
+}

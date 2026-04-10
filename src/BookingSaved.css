@@ -1,0 +1,50 @@
+.BookingSaved-conteaner{
+    max-width: 691px;
+    width: 100%;
+    height: 500px;
+   margin: 50px auto 0px auto;
+    background-color:#FFFFFF;
+    border: 1px solid #706B6B;
+    border-radius: 15px;
+}
+.BookingSaved-card {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.BookingSaved-icon {
+  width: 150px;
+  height: 150px;
+  background:#21DF00;
+  color:#FFFFFF;
+  font-size: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BookingSaved-card h3 {
+  font-size: 25px;
+  color:#163960;
+  font-weight: 700;
+
+}
+.BookingSaved-card button {
+   max-width: 641px;
+   width: 100%;
+  height: 90px;
+  border: none;
+  border-radius: 20px;
+  background-color: #247CFF;
+  color:#FFFFFF;
+  font-size: 25px;
+  cursor: pointer;
+  border: 1px solid #FFFFFF;
+}

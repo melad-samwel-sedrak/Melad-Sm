@@ -1,0 +1,106 @@
+ :root {
+  --main-color: #003480;
+  --white: #FFFFFF;
+  --black: #000000;
+  --btn-color: #247CFF;
+  --img-bg: blue;
+
+  --title-size: 36px;
+  --label-size: 24px;
+  --input-height: 62px;
+}
+.Profile-p{
+    font-size: var(--title-size);
+    font-weight:700;
+    letter-spacing: 0.3px;
+    line-height: 200%;
+    color: var(--main-color);
+    margin-top: 15px;
+    text-align: center;
+}
+
+.Profile-img{
+    width: 150px;
+    height: 150px;
+    background-color: var(--img-bg);
+    margin: 10px auto 0px auto;
+    border-radius: 50%;
+}
+
+.Profile-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.Profile-conteaner{
+    max-width:1150px ;
+    width: 100%;
+    height: 450px ;
+    margin: 10px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.Profile-input{
+    width: 100%;
+    max-width:426px ;
+    height:113px; 
+    display:flex;
+    flex-direction: column;
+}
+
+.Profile-input label{
+    font-size: var(--label-size);
+    font-weight: 800;
+    color: var(--main-color);
+    letter-spacing: 0.3px;
+    line-height: 200%;
+}
+
+.Profile-input input{
+    width: 100%;
+    height: var(--input-height); 
+    padding: 8px 10px;
+    color: var(--black);
+    border-radius: 15px;
+    background-color: var(--white);
+    font-size: var(--label-size);
+    font-weight: 800;
+    border: none;
+}
+
+.Profile-input select{
+    width: 100%;
+    height: var(--input-height); 
+    padding: 8px 10px 8px 10px;
+    color: var(--black);
+    border-radius: 15px;
+    background-color: var(--white);
+    font-size: var(--label-size);
+    font-weight: 800;
+    border: none;
+}
+
+.Profile-input select option{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.Profile-button{
+    width: 100%;
+    max-width: 440px;
+    height: 50px;
+    border: none;
+    background-color: var(--btn-color);
+    border-radius: 15px;
+    font-size: var(--label-size);
+    font-weight: 600;
+    color: var(--white);
+    display: block;
+    margin: 30px auto 50px auto;
+}
+
+/* responsive */

@@ -1,0 +1,60 @@
+
+:root {
+  --main-color: #003480;
+  --white: #FFFFFF;
+  --shadow: #00000040;
+
+  --title-size: 45px;
+  --btn-size: 48px;
+}
+.Language-p{
+    font-size: var(--title-size);
+    font-weight:700;
+    letter-spacing:0.3px;
+    line-height: 200%;
+    color: var(--main-color);
+    text-align: center;   
+    margin-top: 50px;
+}
+
+.Language-conteaner{
+    max-width: 744px;
+    width: 100%;
+    height:374px;
+    margin: 40px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.Language-1{
+    width: 100%;
+    height: 132px;
+    background-color: var(--white);
+    border-radius: 30px;
+    box-shadow: 0px 8px 8px var(--shadow);
+    padding: 16px 36px;
+    display: flex;
+    align-items: center;
+}
+
+.Language-img{
+    width:94px;
+    height:94px ;
+    border-radius: 50%;
+}
+
+.Language-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.Language-1 button{
+    border: none;
+    background: none;
+    font-size: var(--btn-size);
+    font-weight:600;
+    color: var(--main-color);
+    margin-right: 40px;
+}
