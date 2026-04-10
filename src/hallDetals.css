@@ -26,7 +26,7 @@
 
 /* =============================== */
 
-.detals{
+.detals-hallDetals{
     width: 1360px;
     height: 137px;
     margin: 30px auto 0px auto;
@@ -35,19 +35,19 @@
     justify-content: space-between;
 }
 
-.detals-p{
+.detals-p-hallDetals{
     width:341px;
     height: 137px;
 }
 
-.detals-p h4{
+.detals-p-hallDetals h4{
     font-size: var(--font-big);
     font-weight: 800;
     color: var(--dark-color);
     line-height: 0.3px;
     line-height: 200%;
 }
-.detals-p p{
+.detals-p-hallDetals p{
     font-size: 32px;
     font-weight: 600;
     letter-spacing: 0.3px;
@@ -55,12 +55,12 @@
     color: var(--text-color);
 }
 
-.detals-button{
+.detals-button-hallDetals{
     width:150px;
     height: 50px;
 }
 
-.detals-button button{
+.detals-button-hallDetals button{
     width: 100%;
     height: 100%;
     background: var(--main-color);
@@ -72,11 +72,11 @@
      color: var(--white);
      border: none;
 }
-.detals-button button span{
+.detals-button-hallDetals button span{
     margin-left: 10px;
 }
 
-.detals-2{
+.detals-2-hallDetals{
     width: 1360px;
     height: 1415px;
     margin: 15px auto;
@@ -86,10 +86,10 @@
      row-gap: 15px;
 }
 
-.detals-2-1,
-.detals-2-2,
-.detals-2-3,
-.detals-2-4
+.detals-2-1-hallDetals,
+.detals-2-2-hallDetals,
+.detals-2-3-hallDetals,
+.detals-2-4-hallDetals
 {
     width: 655px;
     height: 700px;
@@ -100,10 +100,10 @@
     box-shadow: var(--shadow);
 }
 
-.detals-2-1 h4,
-.detals-2-2 h4,
-.detals-2-3 h4,
-.detals-2-4 h4
+.detals-2-1-hallDetals h4,
+.detals-2-2-hallDetals h4,
+.detals-2-3-hallDetals h4,
+.detals-2-4-hallDetals h4
 {
     font-size: var(--font-big);
     font-weight: 800;
@@ -113,10 +113,10 @@
     text-shadow: var(--shadow);
 }
 
-.detals-2-1 h3,
-.detals-2-2 h3,
-.detals-2-3 h3,
-.detals-2-4 h3
+.detals-2-1-hallDetals h3,
+.detals-2-2-hallDetals h3,
+.detals-2-3-hallDetals h3,
+.detals-2-4-hallDetals h3
 {
     font-size: var(--font-big);
     font-weight: 800;
@@ -125,7 +125,7 @@
     margin-top: 20px;
 }
 
-.detals2-p{
+.detals2-p-hallDetals{
     width: 378px;
     height: 60px;
     margin: 0px auto;
@@ -137,7 +137,7 @@
     color: var(--text-color);
 }
 
-.detals2-3{
+.detals2-3-hallDetals{
     width: 501px;
     height: 23px;
     margin: 0px auto;
@@ -149,10 +149,10 @@
      color: var(--text-color);
 }
 
-.detals-2-1 hr,
-.detals-2-2 hr,
-.detals-2-3 hr,
-.detals-2-4 hr
+.detals-2-1-hallDetals hr,
+.detals-2-2-hallDetals hr,
+.detals-2-3-hallDetals hr,
+.detals-2-4-hallDetals hr
 {
     width: 500px;
     border: 1.5px solid var(--border-color);
@@ -161,14 +161,14 @@
 
 /* =============================== */
 
-.features {
+.features-hallDetals {
   width: 520px;
   height: 300px;
   margin: 15px 0px 0px 0px ;
 }
 
 /* كل عنصر */
-.item {
+.item-hallDetals {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -180,7 +180,7 @@
   line-height: 0.3;
 }
 
-.item .icon {
+.item-hallDetals .icon-hallDetals {
   min-width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -192,7 +192,7 @@
   color: transparent;
 }
 
-.item .text {
+.item-hallDetals .text-hallDetals {
   flex: 1;
   font-size: 31px;
   font-weight: 700;
@@ -200,30 +200,30 @@
   line-height: 160%;
 }
 
-.small {
+.small-hallDetals {
   font-size: 18px;
   color: var(--text-color);
 }
 
-.item.active {
+.item-hallDetals.active {
   color: var(--black);
   font-weight: 700;
 }
 
-.item.active .icon {
+.item-hallDetals.active .icon-hallDetals {
   background-color: var(--main-color);
   color: var(--white);
   border: none;
 }
 
-.item:last-child {
+.item-hallDetals:last-child {
   font-size: var(--font-small);
   color: var(--muted);
 }
 
 /* =============================== */
 
-.edat{
+.edat-hallDetals{
     width: 605px;
     height: 75px;
     margin: 35px auto 0px auto;
@@ -232,7 +232,7 @@
     justify-content: space-between;
 }
 
-.edat-1{
+.edat-1-hallDetals{
     width: 605px;
     height: 95px;
     margin: 60px auto 0px auto;
@@ -241,7 +241,7 @@
     justify-content: space-between;
 }
 
-.edit-2{
+.edit-2-hallDetals{
     width: 300px;
     height: 75px;
     background-color: var(--white);
@@ -251,7 +251,7 @@
     align-items: center;
     justify-content: center;
 }
-.edit-2 button{
+.edit-2-hallDetals button{
     width: 90px;
     height: 50px;
     font-size: 36px;
@@ -260,13 +260,13 @@
     border: none;
     background: transparent;
 }
-.edit-2 i{
+.edit-2-hallDetals i{
      font-size: 30px;
      margin-left: 10px;
      color: var(--main-color);
 }
 
-.delet{
+.delet-hallDetals{
     width:75px;
     height:75px;
     background: var(--white);
@@ -278,7 +278,7 @@
     align-items: center;
     justify-content: center;
 }
-.delet i{
+.delet-hallDetals i{
     font-size: 40px;
     color: var(--danger-color);
 }
@@ -287,41 +287,41 @@
 
 @media(max-width:412px){
 
-.detals{
+.detals-hallDetals{
     width: 100%;
     max-width: 380px;
     height: 88px;
     margin: 44px auto 0px auto;
 }
 
-.detals-p{
+.detals-p-hallDetals{
     width:216px;
     height: 88px;
 }
 
-.detals-p h4{
+.detals-p-hallDetals h4{
     font-size: var(--font-medium);
 }
 
-.detals-p p{
+.detals-p-hallDetals p{
     font-size: var(--font-small);
 }
 
-.detals-button{
+.detals-button-hallDetals{
     width:109px;
     height: 34px;
       
 }
 
-.detals-button button{
+.detals-button-hallDetals button{
     background: var(--main-color);
     font-size: 14px;
     padding: 7px 10px;
 }
-.detals-button button span{
+.detals-button-hallDetals button span{
     margin-left: 5px;
 }
-.detals-2{
+.detals-2-hallDetals{
      width: 100%;
      max-width: 380px;
      height: 1100px;
@@ -330,8 +330,8 @@
      grid-template-columns:1fr;
 }
 
-.detals-2-1,
-.detals-2-2{
+.detals-2-1-hallDetals,
+.detals-2-2-hallDetals{
     width: 380px;
     height: 550px;
     background-color: var(--white);
@@ -341,87 +341,87 @@
     box-shadow: var(--shadow);
 }
 
-.detals-2-1 h4,
-.detals-2-2 h4{
+.detals-2-1-hallDetals h4,
+.detals-2-2-hallDetals h4{
     font-size: var(--font-medium);
 }
 
-.detals-2-1 h3,
-.detals-2-2 h3{
+.detals-2-1-hallDetals h3,
+.detals-2-2-hallDetals h3{
     font-size: var(--font-medium);
     margin-top: 10px;
 }
 
-.detals2-p{
+.detals2-p-hallDetals{
     width: 298px;
     height: 46px;
     font-size: var(--font-xs);
 }
 
-.detals2-3{
+.detals2-3-hallDetals{
     width: 298px;
     height: 46px;
 }
 
-.detals-2-3,
-.detals-2-4{
+.detals-2-3-hallDetals,
+.detals-2-4-hallDetals{
     display: none;
 }
 
-.detals-2-1 hr,
-.detals-2-2 hr{
+.detals-2-1-hallDetals hr,
+.detals-2-2-hallDetals hr{
     width: 300px;
     border: 1.5px solid var(--border-color);
     margin: 20px auto 0px auto;
 }
 
-.features {
+.features-hallDetals {
   width:100%;
   max-width: 380px;
   height: 250px;
 }
 
-.item {
+.item-hallDetals {
   gap: 5px;
   font-size: var(--font-small);
   color: var(--gray);
   line-height: 100%;
 }
 
-.item .icon {
+.item-hallDetals .icon-hallDetals {
   min-width: 20px;
   height: 20px;
   border: 2px solid var(--light-gray);
   font-size: var(--font-xxs);
 }
 
-.item .text {
+.item-hallDetals .text-hallDetals {
   font-size: var(--font-small);
   color: var(--text-color);
 }
 
-.small {
+.small-hallDetals {
   font-size: var(--font-xxs);
 }
 
-.item:last-child {
+.item-hallDetals:last-child {
   font-size: var(--font-xs);
   color: var(--muted);
 }
 
-.edat{
+.edat-hallDetals{
     width: 346px;
     height: 55px;
     margin: 30px auto 0px auto;
 }
 
-.edat-1{
+.edat-1-hallDetals{
     width:346px;
     height: 155px;
     margin: -20px auto 0px auto;
 }
 
-.edit-2{
+.edit-2-hallDetals{
      width:150px;
     height: 55px;
     background-color: var(--white);
@@ -429,18 +429,18 @@
     border: 2px solid var(--main-color);
 }
 
-.edit-2 button{
+.edit-2-hallDetals button{
     width: 60px;
     height: 50px;
     font-size: 24px;
 }
 
-.edit-2 i{
+.edit-2-hallDetals i{
      font-size: var(--font-xs);
      margin-left: 5px;
 }
 
-.delet{
+.delet-hallDetals{
     width:50px;
     height:50px;
     background: var(--white);
@@ -449,7 +449,7 @@
     gap: 5px;
 }
 
-.delet i{
+.delet-hallDetals i{
     font-size: 33px;
     color: var(--danger-color);
 }
