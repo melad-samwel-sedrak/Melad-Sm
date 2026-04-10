@@ -39,7 +39,7 @@ const Register = () => {
 
        <div className='conteaner'>
 
-            <div className='card'> 
+            <div className='card-Register'> 
             <h2>مرحباً بك</h2>
             <p>ابدأ بادارة قاعاتك بكل الاحترافية</p>
             </div>
