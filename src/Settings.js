@@ -16,7 +16,7 @@ const Settings = ({ changeStep }) => {
 
   <div className="right">
     <i className="fa-regular fa-user"></i>
-    <span className="text-Settings">تعديل الملف الشخصي</span>
+    <span className="text">تعديل الملف الشخصي</span>
   </div>
 
 </div>
@@ -33,7 +33,7 @@ const Settings = ({ changeStep }) => {
 
   <div className="right">
     <i className="fa-regular fa-credit-card"></i>
-    <span className="text-Settings">الدفع</span>
+    <span className="text">الدفع</span>
   </div>
 
 </div>
@@ -49,7 +49,7 @@ const Settings = ({ changeStep }) => {
 
   <div className="right">
     <i className="fa-solid fa-globe"></i>
-    <span className="text-Settings">اللغة</span>
+    <span className="text">اللغة</span>
   </div>
 
 </div>
@@ -65,7 +65,7 @@ const Settings = ({ changeStep }) => {
 
   <div className="right">
     <i className="fa-regular fa-bell"></i>
-    <span className="text-Settings">الاشعارات</span>
+    <span className="text">الاشعارات</span>
   </div>
 
 </div>
