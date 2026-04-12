@@ -1,54 +1,55 @@
+import styles from "./EditProfile.module.css";
 import React from 'react'
 import profile from "./profile.jpg";
 const EditProfile = ({ changeStep }) => {
   return (
     <>
-       <h2 className='EditProfile-p'>تعديل الملف الشخصي  </h2>
+       <h2 className={styles.EditProfilep}>تعديل الملف الشخصي  </h2>
        
-             <div className='EditProfile-img'>
+             <div className={styles.EditProfileimg}>
                    <img src={profile} alt='imag'/>
              </div>
        
-             <div className='EditProfile-conteaner'>
+             <div className={styles.EditProfileconteaner}>
        
                {/* الداف الاول */}
        
-               <div className='EditProfile-input-EditProfile'>
+               <div className={styles.EditProfileinputEditProfile}>
                  <label htmlFor='firstname'>الاسم الأول </label>
                  <input id='firstname' type='text' />
        
                </div>
        
                {/* الداف الثانى  */}
-                 <div className='EditProfile-input-EditProfile'>
+                 <div className={styles.EditProfileinputEditProfile}>
                  <label htmlFor='lastname'>اسم العائلة</label>
                  <input id='lastname' type='text'  />
        
                </div>
        
                {/* الداف الثالث */}
-                 <div className='EditProfile-input-EditProfile'>
+                 <div className={styles.EditProfileinputEditProfile}>
                  <label htmlFor='email'>البريد الالكتروني </label>
                  <input id='email' type='email' />
        
                </div>
                {/* الداف الرابع */}
        
-               <div className='EditProfile-input-EditProfile'>
+               <div className={styles.EditProfileinputEditProfile}>
                  <label htmlFor='name'>رقم الهاتف </label>
                  <input id='name' type='text'  />
        
                </div>
        
                {/* الداف الخامس  */}
-               <div className='EditProfile-input-EditProfile'>
+               <div className={styles.EditProfileinputEditProfile}>
                  <label htmlFor='date'>تاريخ الميلاد </label>
                  <input id='date' type='date' />
        
                </div>
        
                {/* الداف السادس */}
-               <div className='EditProfile-input-EditProfile'>
+               <div className={styles.EditProfileinputEditProfile}>
                  <label htmlFor='gendar'>النوع</label>
                   <select id='gendar'>
                  <option value="">اختر النوع</option>
@@ -64,7 +65,7 @@ const EditProfile = ({ changeStep }) => {
                 
                 
                <button 
-                  className='EditProfile-button-EditProfile'
+                  className={styles.EditProfilebuttonEditProfile}
                   onClick={() => changeStep(16)}
                 >
                   حفظ

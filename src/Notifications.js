@@ -1,19 +1,20 @@
+import styles from "./Notifications.module.css";
 import React from 'react'
 
 const Notifications = () => {
   return (
     <>
-       <h2 className='Notifications-p'>الاشعارات</h2>
+       <h2 className={styles.Notificationsp}>الاشعارات</h2>
 
-       <div className='Notifications-contener'>
+       <div className={styles.Notificationscontener}>
 {/* الداف الاول  */}
-        <div className='Notifications-1'>
+        <div className={styles.Notifications1}>
 
-          <div className='Notifications-rei'>
+          <div className={styles.Notificationsrei}>
             <i className="fa-solid fa-check check-icon"></i>
           </div>
 
-           <div className='Notifications-text'>
+           <div className={styles.Notificationstext}>
                   <h4>تم تاكيد حجز قاعه الافراح ليوم 6 اكتوبر </h4>
                   <p>قبل ساعه</p>
           </div>
@@ -21,12 +22,12 @@ const Notifications = () => {
         </div>
 
 {/* الداف الثانى  */}
-        <div className='Notifications-2'>
-              <div className='Notifications-icon'>
+        <div className={styles.Notifications2}>
+              <div className={styles.Notificationsicon}>
               <i className="fa-regular fa-envelope"></i>
             </div>
 
-              <div className='Notifications-text'>
+              <div className={styles.Notificationstext}>
                   <h4>لديك رساله جديدة</h4>
                   <p>قبل 20 دقيقة</p>
           </div>

@@ -1,4 +1,4 @@
- .weddings-p{
+ .Occasionsp{
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.3px;
@@ -7,13 +7,13 @@
     text-align: center;
     margin-top: 20px;
  }
-.weddings-contener{
+.Occasionscontener{
    width: 100%;
     max-width: 1260px;
     height: 720px; 
     margin: 33px auto 0px auto;
 }
- .weddings-contener-1{
+ .Occasionscontener1{
     width: 100%;
     max-width: 1260px;
     height: 327px;
@@ -23,7 +23,7 @@
     align-items: center;
  }
 
-.weddings-contener-1-1{
+.Occasionscontener11{
     width: 100%;
     max-width: 364px;
     height:100%;
@@ -34,25 +34,25 @@
     position: relative;
 }
  
-.weddings-contener-1-1 img{
+.Occasionscontener11 img{
     width: 100%;
     max-width: 364px;
     height:175px;
     border-radius: 15px 15px 0px 0px ;
 }
-.weddings-contener-1-1-1{
+.Occasionscontener111{
      width:100%;
     height: 152px;
     margin-top: -10px;
 }
-.weddings-contener-1-1-1 h4{
+.Occasionscontener111 h4{
     font-family: 800;
     font-size:30px ;
     color: #001F4D;
     letter-spacing: 0.3px;
     margin-right: 10px;
 }
-.weddings-contener-1-1-1 p{
+.Occasionscontener111 p{
     font-size: 15px;
     font-weight: 700;
     line-height: 150%;
@@ -60,21 +60,21 @@
     margin-right: 35px;
 }
 
-.weddings-contener-1-1-1 h6{
+.Occasionscontener111 h6{
     font-size: 15px;
     line-height: 200%;
     color: #003480;
     font-weight: 700;
     margin-right: 10px;
 }
-.weddings-contener-1-1-1 h6 span{
+.Occasionscontener111 h6 span{
     font-size: 16px;
     font-weight: 800;
     color: #001F4D;
     margin-right: 10px;
 }
 
-.weddings-contener-1-1-1 button{
+.Occasionscontener111 button{
     position: absolute;
     bottom: 10px;       
     left: 10px;
@@ -90,7 +90,7 @@
 }
 
 
- .weddings-contener-2{
+ .Occasionscontener2{
     width: 100%;
     max-width: 1260px;
     height: 327px;
@@ -100,4 +100,3 @@
     justify-content: space-between;
     align-items: center;
  }
-

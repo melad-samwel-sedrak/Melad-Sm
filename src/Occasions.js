@@ -1,23 +1,24 @@
+import styles from "./Occasions.module.css";
 import React from 'react'
 import photo2 from "./photo2.jpg";
 const Occasions = ({ changeStep }) => {
   return (
     <>
-      <h2 className='Occasions-p'>المناسبات</h2>
+      <h2 className={styles.Occasionsp}>المناسبات</h2>
 
            {/* الداف الاب */}
-           <div className='Occasions-contener'> 
+           <div className={styles.Occasionscontener}> 
       
       {/* الداف الاول الاساسى  */}
-           <div className='Occasions-contener-1'>
+           <div className={styles.Occasionscontener1}>
       
       
               {/* الداف الاول  */}
       
-                  <div className='Occasions-contener-1-1'>
+                  <div className={styles.Occasionscontener11}>
                                   <img src={photo2} alt='imge'/>
                   
-                                  <div className='Occasions-contener-1-1-1'>
+                                  <div className={styles.Occasionscontener111}>
                                       <h4>قاعة  المناسبات </h4>
                                       <p>سوهاج</p>
                                       <h6>سعة 700 شخص</h6>
@@ -35,10 +36,10 @@ const Occasions = ({ changeStep }) => {
       
       {/* الداف الثانى */}
                             
-                   <div className='Occasions-contener-1-1'>
+                   <div className={styles.Occasionscontener11}>
                                   <img src={photo2} alt='imge'/>
                   
-                                  <div className='Occasions-contener-1-1-1'>
+                                  <div className={styles.Occasionscontener111}>
                                       <h4>قاعة  المناسبات </h4>
                                       <p>سوهاج</p>
                                       <h6>سعة 700 شخص</h6>
@@ -56,10 +57,10 @@ const Occasions = ({ changeStep }) => {
       
                             {/* الداف الثالث */}
       
-                             <div className='Occasions-contener-1-1'>
+                             <div className={styles.Occasionscontener11}>
                                   <img src={photo2} alt='imge'/>
                   
-                                  <div className='Occasions-contener-1-1-1'>
+                                  <div className={styles.Occasionscontener111}>
                                      <h4>قاعة  المناسبات </h4>
                                       <p>سوهاج</p>
                                       <h6>سعة 700 شخص</h6>
@@ -78,13 +79,13 @@ const Occasions = ({ changeStep }) => {
            </div>
             
       
-          <div className='Occasions-contener-2'>
+          <div className={styles.Occasionscontener2}>
       
       {/* الداف الاول  */}
-             <div className='Occasions-contener-1-1'>
+             <div className={styles.Occasionscontener11}>
                                   <img src={photo2} alt='imge'/>
                   
-                                  <div className='Occasions-contener-1-1-1'>
+                                  <div className={styles.Occasionscontener111}>
                                       <h4>قاعة  المناسبات </h4>
                                       <p>سوهاج</p>
                                       <h6>سعة 700 شخص</h6>
@@ -102,10 +103,10 @@ const Occasions = ({ changeStep }) => {
       
       {/* الداف الثانى */}
       
-          <div className='Occasions-contener-1-1'>
+          <div className={styles.Occasionscontener11}>
                                   <img src={photo2} alt='imge'/>
                   
-                                  <div className='Occasions-contener-1-1-1'>
+                                  <div className={styles.Occasionscontener111}>
                                       <h4>قاعة  المناسبات </h4>
                                       <p>سوهاج</p>
                                       <h6>سعة 700 شخص</h6>
@@ -123,10 +124,10 @@ const Occasions = ({ changeStep }) => {
       
                             {/* الداف الثالث  */}
       
-                            <div className='Occasions-contener-1-1'>
+                            <div className={styles.Occasionscontener11}>
                                   <img src={photo2} alt='imge'/>
                   
-                                  <div className='Occasions-contener-1-1-1'>
+                                  <div className={styles.Occasionscontener111}>
                                      <h4>قاعة  المناسبات </h4>
                                       <p>سوهاج</p>
                                       <h6>سعة 700 شخص</h6>

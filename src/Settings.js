@@ -1,22 +1,23 @@
+import styles from "./Settings.module.css";
 import React from 'react'
  
 const Settings = ({ changeStep }) => {
   return (
     <>
-      <h2 className='Settings-p'>الاعدادات</h2>
+      <h2 className={styles.Settingsp}>الاعدادات</h2>
 
-      <div className='Settings-contener'>
+      <div className={styles.Settingscontener}>
 
 {/* الداف الاول */}
-       <div className="item" onClick={() => changeStep(11)}>
+       <div className={styles.item} onClick={() => changeStep(11)}>
 
-  <div className="left">
-    <i className="fa-solid fa-angle-left arrow"></i>
+  <div className={styles.left}>
+     <i className={`fa-solid fa-angle-left ${styles.arrow}`}></i>
   </div>
 
-  <div className="right">
+  <div className={styles.right}>
     <i className="fa-regular fa-user"></i>
-    <span className="text">تعديل الملف الشخصي</span>
+    <span className={styles.text}>تعديل الملف الشخصي</span>
   </div>
 
 </div>
@@ -25,15 +26,15 @@ const Settings = ({ changeStep }) => {
 
     {/* الداف الثانى  */}
 
-<div className="item" onClick={() => changeStep(12)}>
+<div className={styles.item} onClick={() => changeStep(12)}>
 
-  <div className="left">
-    <i className="fa-solid fa-angle-left arrow"></i>
+  <div className={styles.left}>
+    <i className={`fa-solid fa-angle-left ${styles.arrow}`}></i>
   </div>
 
-  <div className="right">
+  <div className={styles.right}>
     <i className="fa-regular fa-credit-card"></i>
-    <span className="text">الدفع</span>
+    <span className={styles.text}>الدفع</span>
   </div>
 
 </div>
@@ -41,15 +42,15 @@ const Settings = ({ changeStep }) => {
 
     {/* الداف الثالث  */}
 
-     <div className="item" onClick={() => changeStep(13)}>
+     <div className={styles.item} onClick={() => changeStep(13)}>
 
-  <div className="left">
-    <i className="fa-solid fa-angle-left arrow"></i>
+  <div className={styles.left}>
+    <i className={`fa-solid fa-angle-left ${styles.arrow}`}></i>
   </div>
 
-  <div className="right">
+  <div className={styles.right}>
     <i className="fa-solid fa-globe"></i>
-    <span className="text">اللغة</span>
+    <span className={styles.text}>اللغة</span>
   </div>
 
 </div>
@@ -57,15 +58,15 @@ const Settings = ({ changeStep }) => {
     {/* الداف الرابع  */}
 
 
-     <div className="item" onClick={() => changeStep(14)}>
+     <div className={styles.item} onClick={() => changeStep(14)}>
 
-  <div className="left">
-    <i className="fa-solid fa-angle-left arrow"></i>
+  <div className={styles.left}>
+    <i className={`fa-solid fa-angle-left ${styles.arrow}`}></i>
   </div>
 
-  <div className="right">
+  <div className={styles.right}>
     <i className="fa-regular fa-bell"></i>
-    <span className="text">الاشعارات</span>
+    <span className={styles.text}>الاشعارات</span>
   </div>
 
 </div>

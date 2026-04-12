@@ -1,3 +1,4 @@
+import styles from "./Payment.module.css";
 import React from 'react'
 import visa from "./visa.png";
 import baabal from "./baabal.png";
@@ -6,23 +7,23 @@ import vodafone from "./vodafone.png";
 const Payment = () => {
   return (
     <>
-      <h2 className='Payment-p'>الدفع</h2>
+      <h2 className={styles.Paymentp}>الدفع</h2>
 
-      <div className='Payment-contener'>
+      <div className={styles.Paymentcontener}>
 
         {/* الداف الاول  */}
 
-            <div className='Payment-1'>
-               <div className='Payment-1-img-1'><img src={visa} alt="imag" /></div>
+            <div className={styles.Payment1}>
+               <div className={styles.Payment1img1}><img src={visa} alt="imag" /></div>
 
                <button>كارت الفيزا</button>
 
             </div>
         {/* الداف الثانى  */}
 
-          <div className='Payment-1'>
+          <div className={styles.Payment1}>
 
-            <div className='Payment-1-img-2'><img src={baabal} alt="imag" /></div>
+            <div className={styles.Payment1img2}><img src={baabal} alt="imag" /></div>
 
                <button>باي بال</button>
 
@@ -30,17 +31,17 @@ const Payment = () => {
         {/* الداف الثالث  */}
 
 
-            <div className='Payment-1'>
+            <div className={styles.Payment1}>
 
-               <div className='Payment-1-img-3'><img src={instaPay} alt="imag" /></div>
+               <div className={styles.Payment1img3}><img src={instaPay} alt="imag" /></div>
 
                <button>انستا باي</button>
 
             </div>
         {/* الداف الرابع */}
-              <div className='Payment-1'>
+              <div className={styles.Payment1}>
 
-                 <div className='Payment-1-img-4'><img src={vodafone } alt="imag" /></div>
+                 <div className={styles.Payment1img4}><img src={vodafone } alt="imag" /></div>
 
                 <button>فودافون كاش</button>
               </div>

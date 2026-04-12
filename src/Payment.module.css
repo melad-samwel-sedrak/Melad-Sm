@@ -6,7 +6,7 @@
   --title-size: 45px;
   --btn-text-size: 32px;
 }
-.Payment-p{
+.Paymentp{
     font-size: var(--title-size);
     font-weight: 700;
     letter-spacing: 0.3px;
@@ -16,7 +16,7 @@
     margin-top: 35px;
 }
 
-.Payment-contener{
+.Paymentcontener{
     max-width:600px;
     width: 100%;
     height:650px ;
@@ -26,7 +26,7 @@
     gap: 50px;
 }
 
-.Payment-1{
+.Payment1{
     width: 100%;
     height: 122px;
     background-color: var(--white);
@@ -37,35 +37,35 @@
     align-items: center;
 }
 
-.Payment-1-img-1{
+.Payment1img1{
     width:96px;
     height: 34px;
 }
 
-.Payment-1-img-2{
+.Payment1img2{
     width:58px;
     height: 72px;
 }
 
-.Payment-1-img-3{
+.Payment1img3{
     width:70px;
     height: 70px;
 }
 
-.Payment-1-img-4{
+.Payment1img4{
     width:60px;
     height: 60px;
 }
 
-.Payment-1-img-1 img,
-.Payment-1-img-2 img,
-.Payment-1-img-3 img,
-.Payment-1-img-4 img{
+.Payment1img1 img,
+.Payment1img2 img,
+.Payment1img3 img,
+.Payment1img4 img{
     width: 100%;
     height: 100%;
 }
 
-.Payment-1 button{
+.Payment1 button{
     border: none;
     background-color: transparent;
     font-size: var(--btn-text-size);

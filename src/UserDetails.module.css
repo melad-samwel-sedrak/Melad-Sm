@@ -8,7 +8,7 @@
   --title-size: 36px;
   --sub-title: 24px;
 }
-.UserDetails-p{
+.UserDetailsp{
     font-size: var(--title-size);
     line-height: 200%;
     letter-spacing: 0.3px;
@@ -17,7 +17,7 @@
     text-align: center;
 }
 
-.contener-UserDetails{
+.contenerUserDetails{
     max-width: 1320px;
     width: 100%;
     height: 780px;
@@ -27,13 +27,13 @@
     position: relative;
 }
 
-.UserDetails-1{
+.UserDetails1{
     max-width: 558px;
     width: 100%;
     height: 80%;
 }
 
-.UserDetails-1-h2{
+.UserDetails1h2{
     font-size: var(--title-size);
     font-weight: 800;
     line-height: 200%;
@@ -41,7 +41,7 @@
     color: var(--main-color);
 }
 
-.userDeatils-1p{
+.userDeatils1p{
     font-size: var(--sub-title);
     font-weight: 800;
     line-height: 200%;
@@ -50,7 +50,7 @@
     margin-top: 20px;
 }
 
-.userDeatils-1p span{
+.userDeatils1p span{
     font-size: var(--sub-title);
     font-weight: 600;
     line-height: 200%;
@@ -58,7 +58,7 @@
     color: var(--main-color);
 }
 
-.userDeatils-h3{
+.userDeatilsh3{
     font-size: var(--sub-title);
     font-weight: 800;
     line-height: 200%;
@@ -67,13 +67,13 @@
     margin-top: 20px;
 }
 
-.UserDetails-detals{
+.UserDetailsdetals{
     max-width: 558px;
     width:100%;
     height: 210px;
 }
 
-.UserDetails-detals p{
+.UserDetailsdetals p{
     font-size: var(--sub-title);
     font-weight: 600;
     line-height: 200%;
@@ -81,7 +81,7 @@
     color: var(--main-color);
 }
 
-.UserDetails-2{
+.UserDetails2{
     max-width: 660px;
     width: 100%;
     height: 400px;
@@ -89,19 +89,19 @@
     margin-top: 5px;
 }
 
-.UserDetails-2 .swiper{
+.UserDetails2 .swiper{
     width: 100%;
     height: 100%;
 }
 
-.UserDetails-2 img{
+.UserDetails2 img{
     width: 100%;
     height: 90%;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.UserDetails-button{
+.UserDetailsbutton{
     max-width:440px ;
     width: 100%;
     height:50px ;
