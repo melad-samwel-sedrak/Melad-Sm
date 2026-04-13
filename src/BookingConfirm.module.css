@@ -1,4 +1,4 @@
-.BookingConfirm-p{
+.BookingConfirmp{
     font-size: 36px;
     font-weight: 700;
     color: #003480;
@@ -8,7 +8,7 @@
     margin-top: 15px;
 }
 
-.booking-card {
+.bookingcard {
     max-width: 874px;
   width:100%;
   height: 488px;
@@ -47,7 +47,7 @@
   margin-left: 330px;
 }
 
-.BookingConfirm-button{
+.BookingConfirmbutton{
     width: 100%;
     max-width: 440px;
     height:50px ;

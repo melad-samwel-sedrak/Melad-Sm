@@ -1,4 +1,4 @@
-.Bookingss-p{
+.Bookingssp{
     font-size: 36px;
     font-weight: 700;
     line-height: 200%;
@@ -6,7 +6,7 @@
     color: #003480;
      margin: 35px 58px 0px 0px;
 }
-.Bookingss-contenar{
+.Bookingsscontenar{
     max-width: 1322px;
     width: 100%;
     height: 755px;
@@ -16,7 +16,7 @@
     justify-content: space-between;
    
 }
-.Bookingss-1{
+.Bookingss1{
     max-width:744px ;
     width: 100%;
     height: 705px;
@@ -29,7 +29,7 @@
 
 }
 
-.Bookingss-1-1{
+.Bookingss11{
      width: 100%;
     max-width: 364px;
     height:327px;
@@ -39,21 +39,21 @@
     box-shadow: 0px 4px 4px #00000040;
     position: relative;
 }
-.Bookingss-1-1 i{
+.Bookingss11 i{
     position: absolute;
     top: 10px;
     left: 10px;
     font-size: 25px;
     cursor: pointer;
 }
-.Bookingss-1-1 img{
+.Bookingss11 img{
     width: 100%;
     max-width: 364px;
     height:175px;
     border-radius: 15px 15px 0px 0px ;
 }
 
-.Bookingss-1-2{
+.Bookingss12{
     width:100%;
     height: 152px;
     margin-top: -10px;
@@ -62,7 +62,7 @@
 
  
 
-.Bookingss-1-2 h4{
+.Bookingss12 h4{
     font-family: 800;
     font-size:30px ;
     color: #001F4D;
@@ -70,28 +70,28 @@
     letter-spacing: 0.3px;
     margin-right: 10px;
 }
-.Bookingss-1-2 p{
+.Bookingss12 p{
     font-size: 15px;
     font-weight: 700;
     line-height: 150%;
     color: #003480;
     margin-right: 35px;
 }
-.Bookingss-1-2 h6{
+.Bookingss12 h6{
     font-size: 15px;
     line-height: 200%;
     color: #003480;
     font-weight: 700;
     margin-right: 10px;
 }
-.Bookingss-1-2 h6 span{
+.Bookingss12 h6 span{
     font-size: 16px;
     font-weight: 800;
     color: #001F4D;
     margin-right: 10px;
 }
 
-.Bookingss-1-2 button{
+.Bookingss12 button{
     position: absolute;
     bottom: 10px;       
     left: 10px;
@@ -108,7 +108,7 @@
 
 
 
-.Bookingss-2{
+.Bookingss2{
     max-width: 500px;
     width:100%;
     height: 645px;
@@ -116,7 +116,7 @@
      
      
 }
-.Bookingss-2 .Bookingss-2-p{
+.Bookingss2 .Bookingss2p{
     font-size:36px ;
     font-weight: 700;
     line-height: 200%;
@@ -127,28 +127,54 @@
 
 }
 
-.Bookingss-2 .react-datepicker{
-     width: 100%;
-    height: 82%;
-     margin-top: 10px;
-     border-radius: 10px;
-      
-     
-}
-.react-datepicker__day{
-    font-size: 27px;
-    background-color: #F2F2F3;
-    border-radius: 30px;
-    color: #0C0C0D;
-}
-
-.react-datepicker__day-name{
-    font-size: 25px;
-     
-}
-
-.Bookingss-2 .react-datepicker__current-month {
-  font-size: 25px;
-   
+ .Bookingss2 :global(.react-datepicker) {
+    width: 100% !important;
+    height: 83% !important; 
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none; 
+    display: flex;
 }
  
+.Bookingss2 :global(.react-datepicker__month-container) {
+    width: 100% !important;
+    
+}
+ 
+.Bookingss2 :global(.react-datepicker__day-name) {
+    font-size: 25px !important;  
+    width: 3.5rem;
+    margin: 0.5rem;
+    font-weight: 700;
+}
+
+ 
+.Bookingss2 :global(.react-datepicker__day) {
+    font-size: 27px !important;  
+    background-color: #F2F2F3 !important; 
+    border-radius: 30px !important; 
+    color: #0C0C0D !important;  
+    width: 3.5rem;
+    line-height: 3.5rem;
+    
+     
+}
+
+ 
+.Bookingss2 :global(.react-datepicker__current-month) {
+    font-size: 25px !important;  
+    color:#0C0C0D;
+    padding: 10px 0;
+}
+
+ 
+.Bookingss2 :global(.react-datepicker__header) {
+    background-color: white !important;
+    border-bottom: none !important;
+}
+
+ 
+.Bookingss2 :global(.react-datepicker__day--selected) {
+    background-color: #247CFF !important;
+    color: white !important;
+}

@@ -1,22 +1,23 @@
+import styles from "./Conferences.module.css";
 import React from 'react'
 import photo3 from "./photo3.jpg";
 const Conferences = ({ changeStep }) => {
   return (
     <>
-      <h2 className='Conferences-p'> المؤتمرات </h2>
+      <h2 className={styles.Conferencesp}> المؤتمرات </h2>
 
-       <div className='Conferences-contener'> 
+       <div className={styles.Conferencescontener}> 
       
       {/* الداف الاول الاساسى  */}
-           <div className='Conferences-contener-1'>
+           <div className={styles.Conferencescontener1}>
       
       
               {/* الداف الاول  */}
       
-                  <div className='Conferences-contener-1-1'>
+                  <div className={styles.Conferencescontener11}>
                                   <img src={photo3} alt='imge'/>
                   
-                                  <div className='Conferences-contener-1-1-1'>
+                                  <div className={styles.Conferencescontener111}>
                                       <h4>قاعة  المؤتمرات </h4>
                                       <p>سوهاج</p>
                                       <h6>سعة 500 شخص</h6>
@@ -34,10 +35,10 @@ const Conferences = ({ changeStep }) => {
       
       {/* الداف الثانى */}
                             
-                   <div className='Conferences-contener-1-1'>
+                   <div className={styles.Conferencescontener11}>
                                   <img src={photo3} alt='imge'/>
                   
-                                  <div className='Conferences-contener-1-1-1'>
+                                  <div className={styles.Conferencescontener111}>
                                      <h4>قاعة  المؤتمرات </h4>
                                       <p>سوهاج</p>
                                       <h6>سعة 500 شخص</h6>
@@ -55,10 +56,10 @@ const Conferences = ({ changeStep }) => {
       
                             {/* الداف الثالث */}
       
-                             <div className='Conferences-contener-1-1'>
+                             <div className={styles.Conferencescontener11}>
                                   <img src={photo3} alt='imge'/>
                   
-                                  <div className='Conferences-contener-1-1-1'>
+                                  <div className={styles.Conferencescontener111}>
                                       <h4>قاعة  المؤتمرات </h4>
                                       <p>سوهاج</p>
                                       <h6>سعة 500 شخص</h6>
@@ -77,13 +78,13 @@ const Conferences = ({ changeStep }) => {
            </div>
             
       
-          <div className='Conferences-contener-2'>
+          <div className={styles.Conferencescontener2}>
       
       {/* الداف الاول  */}
-             <div className='Conferences-contener-1-1'>
+             <div className={styles.Conferencescontener11}>
                                   <img src={photo3} alt='imge'/>
                   
-                                  <div className='Conferences-contener-1-1-1'>
+                                  <div className={styles.Conferencescontener111}>
                                      <h4>قاعة  المؤتمرات </h4>
                                       <p>سوهاج</p>
                                       <h6>سعة 500 شخص</h6>
@@ -101,10 +102,10 @@ const Conferences = ({ changeStep }) => {
       
       {/* الداف الثانى */}
       
-          <div className='Conferences-contener-1-1'>
+          <div className={styles.Conferencescontener11}>
                                   <img src={photo3} alt='imge'/>
                   
-                                  <div className='Conferences-contener-1-1-1'>
+                                  <div className={styles.Conferencescontener111}>
                                       <h4>قاعة  المؤتمرات </h4>
                                       <p>سوهاج</p>
                                       <h6>سعة 500 شخص</h6>
@@ -122,10 +123,10 @@ const Conferences = ({ changeStep }) => {
       
                             {/* الداف الثالث  */}
       
-                            <div className='Conferences-contener-1-1'>
+                            <div className={styles.Conferencescontener11}>
                                   <img src={photo3} alt='imge'/>
                   
-                                  <div className='Conferences-contener-1-1-1'>
+                                  <div className={styles.Conferencescontener111}>
                                       <h4>قاعة  المؤتمرات </h4>
                                       <p>سوهاج</p>
                                       <h6>سعة 500 شخص</h6>

@@ -1,3 +1,4 @@
+import styles from "./Bookingss.module.css";
 import React from 'react'
 import photo5 from "./photo5.jpg";
 import { useState } from 'react';
@@ -33,18 +34,18 @@ const Bookingss = ({ changeStep }) => {
 
   return (
     <>
-       <h2 className='Bookingss-p'>القاعات المتاحة</h2>
+       <h2 className={styles.Bookingssp}>القاعات المتاحة</h2>
 
-       <div className='Bookingss-contenar'> 
+       <div className={styles.Bookingsscontenar}> 
 
-            <div className='Bookingss-1'>
+            <div className={styles.Bookingss1}>
 
 {/* الداف الاول */}
 
-              <div className='Bookingss-1-1'>
+              <div className={styles.Bookingss11}>
                               <img src={photo5} alt='imge'/>
               
-                              <div className='Bookingss-1-2'>
+                              <div className={styles.Bookingss12}>
                                   <h4>قاعة المناسبات</h4>
                                   <p>سوهاج</p>
                                   <h6>سعة 700 شخص</h6>
@@ -67,10 +68,10 @@ const Bookingss = ({ changeStep }) => {
                         {/* الداف الثانى  */}
 
 
-               <div className='Bookingss-1-1'>
+               <div className={styles.Bookingss11}>
                               <img src={photo5} alt='imge'/>
               
-                              <div className='Bookingss-1-2'>
+                              <div className={styles.Bookingss12}>
                                   <h4>قاعة المناسبات</h4>
                                   <p>سوهاج</p>
                                   <h6>سعة 700 شخص</h6>
@@ -91,10 +92,10 @@ const Bookingss = ({ changeStep }) => {
 
                         {/* الداف الثالث */}
 
-                         <div className='Bookingss-1-1'>
+                         <div className={styles.Bookingss11}>
                               <img src={photo5} alt='imge'/>
               
-                              <div className='Bookingss-1-2'>
+                              <div className={styles.Bookingss12}>
                                   <h4>قاعة المناسبات</h4>
                                   <p>سوهاج</p>
                                   <h6>سعة 700 شخص</h6>
@@ -114,10 +115,10 @@ const Bookingss = ({ changeStep }) => {
                         </div>
         {/* الداف الرابع  */}
 
-         <div className='Bookingss-1-1'>
+         <div className={styles.Bookingss11}>
                               <img src={photo5} alt='imge'/>
               
-                              <div className='Bookingss-1-2'>
+                              <div className={styles.Bookingss12}>
                                   <h4>قاعة المناسبات</h4>
                                   <p>سوهاج</p>
                                   <h6>سعة 700 شخص</h6>
@@ -145,8 +146,8 @@ const Bookingss = ({ changeStep }) => {
 
             {/* الداف الثانى  */}
 
-            <div className='Bookingss-2'>
-              <h2 className='Bookingss-2-p'>الحجوزات المتاحة</h2>
+            <div className={styles.Bookingss2}>
+              <h2 className={styles.Bookingss2p}>الحجوزات المتاحة</h2>
 
               <DatePicker
                 selected={date}

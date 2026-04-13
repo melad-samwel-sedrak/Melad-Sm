@@ -1,3 +1,4 @@
+import styles from "./Favorites.module.css";
 import React from 'react'
 import { useState } from 'react';
 import photo4 from "./photo4.jpg";
@@ -22,17 +23,17 @@ const toggleLike = (id) => {
 
   return (
     <>
-        <h2 className='favorites-p'>المفضلة</h2>
+        <h2 className={styles.favoritesp}>المفضلة</h2>
 
-        <div className='contener-favorites'>
+        <div className={styles.contenerfavorites}>
 
 {/* الداف الاول */}
 
 
-          <div className='Favorites-1'>
+          <div className={styles.Favorites1}>
                 <img src={photo4} alt='imge'/>
 
-                <div className='Favorites-1-1'>
+                <div className={styles.Favorites11}>
                     <h4>قاعة الافراح</h4>
                     <p>سوهاج</p>
                     <h6>سعة 500 شخص</h6>
@@ -58,10 +59,10 @@ const toggleLike = (id) => {
 
 {/* الداف الثانى */}
 
-          <div className='Favorites-1'>
+          <div className={styles.Favorites1}>
                 <img src={photo5} alt='imge'/>
 
-                <div className='Favorites-1-1'>
+                <div className={styles.Favorites11}>
                     <h4>قاعة المناسبات</h4>
                     <p>سوهاج</p>
                     <h6>سعة 700 شخص</h6>
@@ -84,10 +85,10 @@ const toggleLike = (id) => {
 
 {/* الداف الثالث  */}
 
-          <div className='Favorites-1'>
+          <div className={styles.Favorites1}>
               <img src={photo3} alt='imge'/>
 
-                <div className='Favorites-1-1'>
+                <div className={styles.Favorites11}>
                     <h4>قاعة الافراح</h4>
                     <p>سوهاج</p>
                     <h6>سعة 500 شخص</h6>

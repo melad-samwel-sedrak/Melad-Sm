@@ -7,7 +7,7 @@
   --title-size: 45px;
   --btn-size: 48px;
 }
-.Language-p{
+.Languagep{
     font-size: var(--title-size);
     font-weight:700;
     letter-spacing:0.3px;
@@ -17,7 +17,7 @@
     margin-top: 50px;
 }
 
-.Language-conteaner{
+.Languageconteaner{
     max-width: 744px;
     width: 100%;
     height:374px;
@@ -27,7 +27,7 @@
     gap: 90px;
 }
 
-.Language-1{
+.Language1{
     width: 100%;
     height: 132px;
     background-color: var(--white);
@@ -38,19 +38,19 @@
     align-items: center;
 }
 
-.Language-img{
+.Languageimg{
     width:94px;
     height:94px ;
     border-radius: 50%;
 }
 
-.Language-img img{
+.Languageimg img{
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
 
-.Language-1 button{
+.Language1 button{
     border: none;
     background: none;
     font-size: var(--btn-size);

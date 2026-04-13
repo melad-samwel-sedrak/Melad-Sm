@@ -31,13 +31,13 @@
     color: var(--secondary);
 }
 
-.fa_1{
+.fa1{
     width: 1360px;
     height: 330px;
      
     margin: 10px auto 0px auto;
 }
-.fa_1-1{
+.fa11{
     width: 1360px;
     height: 150px;
     display: flex;
@@ -45,7 +45,7 @@
     justify-content: space-between;
 }
 
-.ca-1{
+.ca1{
     width: 300px;
     height: 150px;
     background: var(--white);
@@ -54,7 +54,7 @@
     text-align: center;
     
 }
-.ca-1 h3{
+.ca1 h3{
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 0.3px;
@@ -62,28 +62,28 @@
     color: var(--secondary);
 }
 
-.ca-1 .span-1{
+.ca1 .span1{
     font-size: 48px;
     font-weight: 800;
     line-height: 150%;
     color: var(--blue);
 }
 
-.ca-1 .span-2{
+.ca1 .span2{
     font-size: 48px;
     font-weight: 800;
     line-height: 150%;
     color: var(--yellow);
 }
 
-.ca-1 .span-3{
+.ca1 .span3{
     font-size: 48px;
     font-weight: 800;
     line-height: 150%;
     color: var(--green);
 }
 
-.ca-1 .span-4{
+.ca1 .span4{
     font-size: 48px;
     font-weight: 800;
     line-height: 150%;
@@ -104,7 +104,7 @@
     justify-content: space-between;
 }
 
-.search-box{
+.searchbox{
     width: 800px;
     height: 100px;
     background-color:var(--blue40);
@@ -118,11 +118,11 @@
     color: var(--blue);
 }
 
-.search-box i{
+.searchbox i{
     cursor: pointer;
 }
 
-.search-box input{
+.searchbox input{
     width: 100%;
     height: 100%;
     font-size: 36px;
@@ -132,11 +132,11 @@
     margin-right: 10px;
 }
 
-.search-box input::placeholder{
+.searchbox input::placeholder{
     color: var(--blue);
 }
 
-.search-box input:focus{
+.searchbox input:focus{
      outline: none;
 }
 
@@ -172,7 +172,7 @@
     margin-top: 30px;
 }
 
-.fa_2 .ma{
+.fa2 .ma{
     width: 1360px;
     height: 260px;
     margin: 30px auto 0px auto;
@@ -186,7 +186,7 @@
     justify-content: space-between;
 }
 
-.fa_2 p{
+.fa2 p{
     font-size: 40px;
     font-weight: 800;
     letter-spacing: 0.3px;
@@ -196,7 +196,7 @@
     margin-top: 5px;
 }
 
-.faspan-1{
+.faspan1{
     width: 200px;
     height: 55px;
     display: flex;
@@ -212,7 +212,7 @@
     border: 1px solid var(--primary-dark);
 }
 
-.faspan-2{
+.faspan2{
  width: 200px;
  height: 55px;
  display: flex;
@@ -228,7 +228,7 @@
  border: 1px solid var(--border);
 }
 
-.faspan-3{
+.faspan3{
  width: 200px;
  height: 55px;
  display: flex;
@@ -244,7 +244,7 @@
  border: 1px solid var(--border);
 }
 
-.faspan-4{
+.faspan4{
  width: 200px;
  height: 55px;
  display: flex;
@@ -260,7 +260,7 @@
  border: 1px solid var(--border);
 }
 
-.fa_2-card{
+.fa2card{
     width: 1196px;
     height: 60px;
     margin: -135px auto 0px auto;
@@ -269,24 +269,24 @@
     justify-content: space-between;
 }
 
-.fa_2-card-1{
+.fa2card1{
     display: flex;
     align-items: center;
 }
 
-.fa_2-card-1 p{
+.fa2card1 p{
     font-size: 32px;
     font-weight: 400;
     color: var(--secondary);
     margin-right:10px;
 }
 
-.fa_2-card-1 i{
+.fa2card1 i{
     font-size: 25px;
     color: var(--secondary);
 }
 
-.contener-pragraf{
+.contenerpragraf{
     width: 1320px;
     height:66px ;
     margin: 0px auto;
@@ -315,6 +315,77 @@
      font-size: 30px;
 }
 
+/* التنسيق الأساسي للقائمة المنسدلة */
+.all {
+    width: 400px;
+    height: 100px;
+    position: relative; /* لجعل القائمة تظهر فوق العناصر */
+    z-index: 100;
+}
+
+.customselect {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.selected {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    font-size: 36px;
+    padding: 17px 20px;
+    border: 2px solid var(--border);
+    color: var(--blue);
+    background: var(--blue40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+ 
+
+.selected::after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+     width: 80px; 
+    height: 50px;
+     background-image: url("data:image/svg+xml;utf8,<svg fill='%23247CFF' viewBox='0 0 24 24' width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size: 65px; 
+    pointer-events: none;
+}
+.options {
+    position: absolute;
+    top: 110%; 
+    left: 0;
+    width: 100%;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    z-index: 999;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.options div {
+    padding: 15px;
+    text-align: center;
+    font-size: 28px;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.options div:hover {
+    background: var(--border);
+}
+
+
 /* responsave */
 
 @media(max-width :412px){
@@ -333,30 +404,30 @@
         font-size: 20px;
     }
 
-    .fa_1{
+    .fa1{
         width: 100%;
         max-width: 380px;
         height: 120px;
         margin: 15px auto 0px auto;
     }
 
-    .fa_1-1{
+    .fa11{
         width: 100%;
         max-width: 380px;
         height: 50px;
     }
 
-    .ca-1{
+    .ca1{
         width: 90px;
         height: 50px;
         box-shadow: 0px 0px 5px var(--blue40);
     }
 
-    .ca-1 h3{font-size: 10px;}
-    .ca-1 .span-1{font-size: 20px;}
-    .ca-1 .span-2{font-size: 20px;}
-    .ca-1 .span-3{font-size: 20px;}
-    .ca-1 .span-4{font-size: 20px;}
+    .ca1 h3{font-size: 10px;}
+    .ca1 .span1{font-size: 20px;}
+    .ca1 .span2{font-size: 20px;}
+    .ca1 .span3{font-size: 20px;}
+    .ca1 .span4{font-size: 20px;}
 
     .cearch{
         width: 100%;
@@ -367,7 +438,7 @@
         margin: 10px auto 0px auto;
     }
 
-    .search-box{
+    .searchbox{
         width: 200px;
         height: 40px;
         font-size: 15px;
@@ -375,13 +446,13 @@
         margin-right: 0px;
     }
 
-    .search-box i{
+    .searchbox i{
         cursor: pointer;
         font-size: 15px;
         margin: 0px;
     }
 
-    .search-box input{
+    .searchbox input{
         width: 100%;
         height: 100%;
         font-size: 15px;
@@ -424,7 +495,7 @@
     }
 
     /* العنصر الأساسي */
-    .custom-select {
+    .customselect {
         width: 100%;
         height: 100%;
         position: relative;
@@ -448,21 +519,22 @@
     }
 
     /* السهم */
-    .selected::after {
+   .selected::after {
         content: "";
         position: absolute;
         right: 7px;
-        top: 11px;
-        width: 10px;
+        top: 50%; /* نستخدم 50% بدلاً من 11px */
+        transform: translateY(-50%); /* التوسيط السحري الرأسي */
+        width: 15px; 
         height: 15px;
         background-image: url("data:image/svg+xml;utf8,<svg fill='%23247CFF' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
         background-repeat: no-repeat;
-        background-size: 25px;
+        background-size: 15px; /* حجم السهم في الموبايل */
         background-position: center;
     }
 
     /* القائمة */
-    .options {
+    .options{
         position: absolute;
         top: 110%;
         width: 100%;
@@ -485,7 +557,7 @@
         background: var(--border);
     }
 
-    .fa_2 .ma {
+    .fa2 .ma {
         width: 100%;
         max-width: 380px;
         margin: 10px auto;
@@ -495,14 +567,14 @@
         position: relative;
     }
 
-    .fa_2{
+    .fa2{
         margin-bottom: 80px;
     }
 
-    .faspan-1,
-    .faspan-2,
-    .faspan-3,
-    .faspan-4 {
+    .faspan1,
+    .faspan2,
+    .faspan3,
+    .faspan4 {
         width: 100px;
         height: 25px;
         position: absolute;
@@ -512,28 +584,28 @@
         font-weight: 400;
     }
 
-    .faspan-1{
+    .faspan1{
         right: 10px;
         background: var(--border);
         color: var(--primary-dark);
         border: 1px solid var(--primary-dark);
     }
 
-    .faspan-2{
+    .faspan2{
         left: 10px;
         background: var(--green);
         color: var(--border);
         border: 1px solid var(--border);
     }
 
-    .faspan-3{
+    .faspan3{
         left: 10px;
         background: var(--yellow);
         color: var(--border);
         border: 1px solid var(--border);
     }
 
-    .faspan-4{
+    .faspan4{
         left: 10px;
         background: var(--red);
         color: var(--border);
@@ -550,7 +622,7 @@
         justify-content: center;
     }
 
-    .fa_2-card{
+    .fa2card{
         width:320px;
         height: 56px;
         display: grid;
@@ -561,7 +633,7 @@
         z-index: 1;
     } 
 
-    .fa_2-card-1{
+    .fa2card1{
         width: 130px;
         height: 28px;
         display: flex;
@@ -569,37 +641,37 @@
         line-height: 100%;
     } 
 
-    .fa_2-card-1 p{
+    .fa2card1 p{
         font-size: 15px;
         font-weight: 400;
         color: var(--secondary);
     }
 
-    .fa_2-card-1 i{
+    .fa2card1 i{
         font-size: 15px;
     }
 
-    .fa_2-card-1:nth-child(3){
+    .fa2card1:nth-child(3){
         grid-column: 2;
         grid-row: 1;
     }
 
-    .fa_2-card-1:nth-child(4){
+    .fa2card1:nth-child(4){
         grid-column: 2;
         grid-row: 2;
     }
 
-    .fa_2-card-1:nth-child(1){
+    .fa2card1:nth-child(1){
         grid-column: 1;
         grid-row: 1;
     }
 
-    .fa_2-card-1:nth-child(2){
+    .fa2card1:nth-child(2){
         grid-column: 1;
         grid-row: 2;
     }
 
-    .contener-pragraf {
+    .contenerpragraf {
         width: 370px;
         height: 40px;
         position: absolute;
