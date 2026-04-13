@@ -1,22 +1,23 @@
+import styles from "./birthdays.module.css";
 import React from 'react'
 import photo5 from "./photo5.jpg";
 const birthdays = ({ changeStep }) => {
   return (
     <>
-        <h2 className='birthdays-p'>أعياد الميلاد</h2>
+        <h2 className={styles.birthdaysp}>أعياد الميلاد</h2>
             {/* الداف الاب */}
-            <div className='birthdays-contener'> 
+            <div className={styles.birthdayscontener}> 
        
        {/* الداف الاول الاساسى  */}
-            <div className='birthdays-contener-1'>
+            <div className={styles.birthdayscontener1}>
        
        
                {/* الداف الاول  */}
        
-                   <div className='birthdays-contener-1-1'>
+                   <div className={styles.birthdayscontener11}>
                                    <img src={photo5} alt='imge'/>
                    
-                                   <div className='birthdays-contener-1-1-1'>
+                                   <div className={styles.birthdayscontener111}>
                                        <h4>قاعة أعياد الميلاد</h4>
                                        <p>سوهاج</p>
                                        <h6>سعة 100 شخص</h6>
@@ -34,10 +35,10 @@ const birthdays = ({ changeStep }) => {
        
        {/* الداف الثانى */}
                              
-                    <div className='birthdays-contener-1-1'>
+                    <div className={styles.birthdayscontener11}>
                                    <img src={photo5} alt='imge'/>
                    
-                                   <div className='birthdays-contener-1-1-1'>
+                                   <div className={styles.birthdayscontener111}>
                                        <h4>قاعة أعياد الميلاد</h4>
                                        <p>سوهاج</p>
                                        <h6>سعة 100 شخص</h6>
@@ -55,10 +56,10 @@ const birthdays = ({ changeStep }) => {
        
                              {/* الداف الثالث */}
        
-                              <div className='birthdays-contener-1-1'>
+                              <div className={styles.birthdayscontener11}>
                                    <img src={photo5} alt='imge'/>
                    
-                                   <div className='birthdays-contener-1-1-1'>
+                                   <div className={styles.birthdayscontener111}>
                                        <h4>قاعة أعياد الميلاد</h4>
                                        <p>سوهاج</p>
                                        <h6>سعة 100 شخص</h6>
@@ -77,13 +78,13 @@ const birthdays = ({ changeStep }) => {
             </div>
              
        
-           <div className='birthdays-contener-2'>
+           <div className={styles.birthdayscontener2}>
        
        {/* الداف الاول  */}
-              <div className='birthdays-contener-1-1'>
+              <div className={styles.birthdayscontener11}>
                                    <img src={photo5} alt='imge'/>
                    
-                                   <div className='birthdays-contener-1-1-1'>
+                                   <div className={styles.birthdayscontener111}>
                                        <h4>قاعة أعياد الميلاد</h4>
                                        <p>سوهاج</p>
                                        <h6>سعة 100 شخص</h6>
@@ -101,10 +102,10 @@ const birthdays = ({ changeStep }) => {
        
        {/* الداف الثانى */}
        
-           <div className='birthdays-contener-1-1'>
+           <div className={styles.birthdayscontener11}>
                                    <img src={photo5} alt='imge'/>
                    
-                                   <div className='birthdays-contener-1-1-1'>
+                                   <div className={styles.birthdayscontener111}>
                                        <h4>قاعة أعياد الميلاد</h4>
                                        <p>سوهاج</p>
                                        <h6>سعة 100 شخص</h6>
@@ -122,10 +123,10 @@ const birthdays = ({ changeStep }) => {
        
                              {/* الداف الثالث  */}
        
-                             <div className='birthdays-contener-1-1'>
+                             <div className={styles.birthdayscontener11}>
                                    <img src={photo5} alt='imge'/>
                    
-                                   <div className='birthdays-contener-1-1-1'>
+                                   <div className={styles.birthdayscontener111}>
                                        <h4>قاعة أعياد الميلاد</h4>
                                        <p>سوهاج</p>
                                        <h6>سعة 100 شخص</h6>

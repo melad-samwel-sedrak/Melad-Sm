@@ -15,7 +15,7 @@ import "./Bookingss.css";
 
 import "./Conferences.css";
 // import "./Occasions.css";
-import "./birthdays.css";
+// import "./birthdays.css";
 // import "./Settings.css";
 // import "./Notifications.css";
 // import "./Payment.css";
@@ -25,7 +25,7 @@ import "./Language.css";
 // import "./SaveSuccess.css";
 import "./BookNow.css";
 import "./BookingConfirm.css";
-import "./BookingSaved.css";
+// import "./BookingSaved.css";
 
 import { Routes , Route } from 'react-router-dom';
 import Melad from "./melad";

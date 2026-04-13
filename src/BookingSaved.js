@@ -1,13 +1,14 @@
+import styles from "./BookingSaved.module.css";
 import React from 'react'
 
 const BookingSaved = ({ changeStep }) => {
   return (
     <>
 
-         <div className='BookingSaved-conteaner'>
-            <div className="BookingSaved-card">
+         <div className={styles.BookingSavedconteaner}>
+            <div className={styles.BookingSavedcard}>
     
-    <div className="BookingSaved-icon">✔</div>
+    <div className={styles.BookingSavedicon}>✔</div>
 
     <h3>تمت العملية بنجاح</h3>
 

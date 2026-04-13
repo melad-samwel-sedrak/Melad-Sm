@@ -1,4 +1,4 @@
- .birthdays-p{
+ .birthdaysp{
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.3px;
@@ -7,13 +7,13 @@
     text-align: center;
     margin-top: 20px;
  }
-.birthdays-contener{
+.birthdayscontener{
    width: 100%;
     max-width: 1260px;
     height: 720px; 
     margin: 33px auto 0px auto;
 }
- .birthdays-contener-1{
+ .birthdayscontener-1{
     width: 100%;
     max-width: 1260px;
     height: 327px;
@@ -23,7 +23,7 @@
     align-items: center;
  }
 
-.birthdays-contener-1-1{
+.birthdayscontener11{
     width: 100%;
     max-width: 364px;
     height:100%;
@@ -34,25 +34,25 @@
     position: relative;
 }
  
-.birthdays-contener-1-1 img{
+.birthdayscontener11 img{
     width: 100%;
     max-width: 364px;
     height:175px;
     border-radius: 15px 15px 0px 0px ;
 }
-.birthdays-contener-1-1-1{
+.birthdayscontener111{
      width:100%;
     height: 152px;
     margin-top: -10px;
 }
-.birthdays-contener-1-1-1 h4{
+.birthdayscontener111 h4{
     font-family: 800;
     font-size:30px ;
     color: #001F4D;
     letter-spacing: 0.3px;
     margin-right: 10px;
 }
-.birthdays-contener-1-1-1 p{
+.birthdayscontener111 p{
     font-size: 15px;
     font-weight: 700;
     line-height: 150%;
@@ -60,21 +60,21 @@
     margin-right: 35px;
 }
 
-.birthdays-contener-1-1-1 h6{
+.birthdayscontener111 h6{
     font-size: 15px;
     line-height: 200%;
     color: #003480;
     font-weight: 700;
     margin-right: 10px;
 }
-.birthdays-contener-1-1-1 h6 span{
+.birthdayscontener111 h6 span{
     font-size: 16px;
     font-weight: 800;
     color: #001F4D;
     margin-right: 10px;
 }
 
-.birthdays-contener-1-1-1 button{
+.birthdayscontener111 button{
     position: absolute;
     bottom: 10px;       
     left: 10px;
@@ -90,7 +90,7 @@
 }
 
 
- .birthdays-contener-2{
+ .birthdayscontener2{
     width: 100%;
     max-width: 1260px;
     height: 327px;
