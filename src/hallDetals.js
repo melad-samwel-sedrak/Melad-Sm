@@ -1,4 +1,4 @@
-
+ 
 import React, { useState } from 'react'
  
 const hallDetals = () => {
@@ -60,7 +60,7 @@ const hallDetals = () => {
 
 {/* الداف الاول  */}
 
-      <div className='detals-2-hallDetals'>
+      <div className='detals_2_hallDetals'>
 
           <div className='detals-2-1-hallDetals'>
             <h4>العرض الذهبى</h4>
